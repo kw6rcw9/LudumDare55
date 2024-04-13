@@ -17,10 +17,6 @@ namespace UISystem
 
         void Start()
         {
-            Debug.Log(
-                "1IsMusic" + PlayerPrefs.GetInt("IsMusic") + "\n" +
-                "Music" + PlayerPrefs.GetFloat("Music")
-            );
             AwakeMusicUI();
             AwakeEffectsUI();
         }
