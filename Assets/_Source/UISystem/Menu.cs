@@ -68,7 +68,7 @@ namespace UISystem
         public void Play()
         {
             PlayerPrefs.Save();
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("Level1Scene");
         }
 
         public void Settings()
