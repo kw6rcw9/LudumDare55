@@ -15,8 +15,12 @@ namespace UISystem
         [SerializeField] private Button buttonMusic;
         [SerializeField] private Button buttonEffects;
 
-        void Awake()
+        void Start()
         {
+            Debug.Log(
+                "1IsMusic" + PlayerPrefs.GetInt("IsMusic") + "\n" +
+                "Music" + PlayerPrefs.GetFloat("Music")
+            );
             AwakeMusicUI();
             AwakeEffectsUI();
         }
@@ -25,6 +29,7 @@ namespace UISystem
             if (PlayerPrefs.HasKey("Effects"))
             {
                 sliderEffects.value = PlayerPrefs.GetFloat("Effects");
+                sliderMusics.onValueChanged.AddListener(delegate {ChangeEffects();});
             }
             else
             {
@@ -32,14 +37,13 @@ namespace UISystem
             }
 
             // EffectsToggle button
-            if (PlayerPrefs.HasKey("IsEffects") && PlayerPrefs.GetInt("IsEffects") == 0)
+            if (PlayerPrefs.HasKey("IsEffects") && PlayerPrefs.GetInt("IsEffects") == 1)
             {
                 EffectsOff();
-                buttonEffects.onClick.AddListener(EffectsOn);
             }
             else
             {
-                buttonEffects.onClick.AddListener(EffectsOff);
+                EffectsOn();
             }
         }
 
@@ -47,22 +51,21 @@ namespace UISystem
             if (PlayerPrefs.HasKey("Music"))
             {
                 sliderMusics.value = PlayerPrefs.GetFloat("Music");
+                sliderMusics.onValueChanged.AddListener(delegate {ChangeMusic();});
             }
             else
             {
                 PlayerPrefs.SetFloat("Music", sliderMusics.value);
             }
 
-
             // MusicToggle button
-            if (PlayerPrefs.HasKey("IsMusic") && PlayerPrefs.GetInt("IsMusic") == 0)
+            if (PlayerPrefs.HasKey("IsMusic") && PlayerPrefs.GetInt("IsMusic") == 1)
             {
                 MusicOff();
-                buttonMusic.onClick.AddListener(MusicOn);
             }
             else
             {
-                buttonMusic.onClick.AddListener(MusicOff);
+                MusicOn();
             }
         }
 
@@ -88,22 +91,23 @@ namespace UISystem
         {
             audioMixer.SetFloat("Effects", sliderEffects.value);
             PlayerPrefs.SetFloat("Effects", sliderEffects.value);
-
+            if (PlayerPrefs.GetInt("IsEffects") == 1) {
+                MusicOn();
+            }
         }
 
         public void EffectsOff()
         {
             audioMixer.SetFloat("Effects", -80f);
-            PlayerPrefs.SetFloat("EffectsOff", sliderEffects.value);
-            PlayerPrefs.SetInt("IsEffects", 0);
+            PlayerPrefs.SetInt("IsEffects", 1);
             buttonEffects.onClick.RemoveListener(EffectsOff);
             buttonEffects.onClick.AddListener(EffectsOn);
         }
 
         private void EffectsOn()
         {
-            sliderEffects.value = PlayerPrefs.GetFloat("EffectsOff");
-            PlayerPrefs.SetInt("IsEffects", 1);
+            PlayerPrefs.SetInt("IsEffects", 0);
+            audioMixer.SetFloat("Effects", sliderEffects.value);
             buttonEffects.onClick.AddListener(EffectsOff);
             buttonEffects.onClick.RemoveListener(EffectsOn);
         }
@@ -112,22 +116,23 @@ namespace UISystem
         {
             audioMixer.SetFloat("Music", sliderMusics.value);
             PlayerPrefs.SetFloat("Music", sliderMusics.value);
-
+            if (PlayerPrefs.GetInt("IsMusic") == 1) {
+                MusicOn();
+            }
         }
 
         public void MusicOff()
         {
             audioMixer.SetFloat("Music", -80f);
-            PlayerPrefs.SetFloat("MusicOff", sliderMusics.value);
-            PlayerPrefs.SetInt("IsMusic", 0);
+            PlayerPrefs.SetInt("IsMusic", 1);
             buttonMusic.onClick.RemoveListener(MusicOff);
             buttonMusic.onClick.AddListener(MusicOn);
         }
 
         private void MusicOn()
         {
-            sliderMusics.value = PlayerPrefs.GetFloat("MusicOff");
-            PlayerPrefs.SetInt("IsMusic", 1);
+            audioMixer.SetFloat("Music", sliderMusics.value);
+            PlayerPrefs.SetInt("IsMusic", 0);
             buttonMusic.onClick.RemoveListener(MusicOn);
             buttonMusic.onClick.AddListener(MusicOff);
         }
