@@ -15,6 +15,12 @@ namespace UISystem
         [SerializeField] private Button buttonMusic;
         [SerializeField] private Button buttonEffects;
 
+        private UserData userData;
+
+        void Awake() {
+            userData = new UserData();
+        }   
+
         void Start()
         {
             AwakeMusicUI();
