@@ -1,0 +1,60 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "604a3efe-7678-421a-b819-d81c6d6841b7",
+            "actions": [
+                {
+                    "name": "DoorInteraction",
+                    "type": "Button",
+                    "id": "5f46a5b1-6868-45be-ac34-36a217935e57",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Escape",
+                    "type": "Button",
+                    "id": "990078e2-1a9b-4ff2-8af3-f94eb0c3934f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "16b11c8f-a3a3-4e9d-905b-15802a9cd289",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DoorInteraction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "90ec0d32-c13e-4033-bba4-f7f1950c1189",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "Escape",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Main",
+            "bindingGroup": "Main",
+            "devices": []
+        }
+    ]
+}
