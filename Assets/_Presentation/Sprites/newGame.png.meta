@@ -116,12 +116,12 @@ TextureImporter:
       name: newGame_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 534
-        height: 104
+        x: 275
+        y: 660
+        width: 600
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 832b9b64c7b75104b8f431d027a2eb15
     internalID: 0
     vertices: []
     indices: 

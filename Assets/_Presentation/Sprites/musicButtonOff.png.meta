@@ -1,28 +1,10 @@
 fileFormatVersion: 2
-guid: 0b93140902948de4d87d1d9ef58ef219
+guid: 801692fea9f5ba44588f8b3f78a301b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6178634034700588844
-    second: options1_0
-  - first:
-      213: 2275875360077805374
-    second: options1_1
-  - first:
-      213: 5725912907177877732
-    second: options1_2
-  - first:
-      213: -1443219058697048106
-    second: options1_3
-  - first:
-      213: -3135138668071638142
-    second: options1_4
-  - first:
-      213: -130274019296348586
-    second: options1_5
-  - first:
-      213: -1169135705582461402
-    second: options1_6
+      213: -7826143040956627969
+    second: musicButtonOff_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,22 +113,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: options_0
+      name: musicButtonOff_0
       rect:
         serializedVersion: 2
-        x: 260
-        y: 340
-        width: 600
-        height: 140
+        x: 500
+        y: 410
+        width: 190
+        height: 190
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5309834f5f6cb20449abeb49d6efadbf
-      internalID: -845527155
+      spriteID: ff382627e54f36390800000000000000
+      internalID: -7826143040956627969
       vertices: []
       indices: 
       edges: []
@@ -154,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4b9d522b1d634d441a04a53f712b7af8
+    spriteID: 52b968ea04303ef4b968205a3cdf6863
     internalID: 0
     vertices: []
     indices: 
@@ -162,14 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      options1_0: 6178634034700588844
-      options1_1: 2275875360077805374
-      options1_2: 5725912907177877732
-      options1_3: -1443219058697048106
-      options1_4: -3135138668071638142
-      options1_5: -130274019296348586
-      options1_6: -1169135705582461402
-      options_0: -845527155
+      musicButtonOff_0: -7826143040956627969
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

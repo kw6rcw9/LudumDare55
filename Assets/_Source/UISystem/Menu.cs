@@ -14,8 +14,13 @@ namespace UISystem
         [SerializeField] private Slider sliderMusics;
         [SerializeField] private Button buttonMusic;
         [SerializeField] private Button buttonEffects;
+        [SerializeField] private Sprite buttonMusicSprite;
+        [SerializeField] private Sprite buttonMusicOffSprite;
+        [SerializeField] private Sprite buttonEffectsSprite;
+        [SerializeField] private Sprite buttonEffectsOffSprite;
 
         private UserData userData;
+        private bool settingsFlag = false;
 
         void Awake() {
             userData = new UserData();
@@ -29,14 +34,22 @@ namespace UISystem
 
         public void ToggleSettings()
         {
-            
+            if (settingsFlag) {
+                menuPanel.SetActive(true);
+                settingsPanel.SetActive(false);
+                settingsFlag = !settingsFlag;
+            } else {
+                menuPanel.SetActive(false);
+                settingsPanel.SetActive(true);
+                settingsFlag = !settingsFlag;
+            }
         }
 
         void AwakeEffectsUI() {
             if (PlayerPrefs.HasKey("Effects"))
             {
                 sliderEffects.value = PlayerPrefs.GetFloat("Effects");
-                sliderMusics.onValueChanged.AddListener(delegate {ChangeEffects();});
+                sliderEffects.onValueChanged.AddListener(delegate {ChangeEffects();});
             }
             else
             {
@@ -82,24 +95,12 @@ namespace UISystem
             SceneManager.LoadScene("Level1Scene");
         }
 
-        public void Settings()
-        {
-            menuPanel.SetActive(false);
-            settingsPanel.SetActive(true);
-        }
-
-        public void Back()
-        {
-            menuPanel.SetActive(true);
-            settingsPanel.SetActive(false);
-        }
-
         public void ChangeEffects()
         {
             audioMixer.SetFloat("Effects", sliderEffects.value);
             PlayerPrefs.SetFloat("Effects", sliderEffects.value);
             if (PlayerPrefs.GetInt("IsEffects") == 1) {
-                MusicOn();
+                EffectsOn();
             }
         }
 
@@ -107,16 +108,18 @@ namespace UISystem
         {
             audioMixer.SetFloat("Effects", -80f);
             PlayerPrefs.SetInt("IsEffects", 1);
+            buttonEffects.GetComponent<Image>().sprite = buttonEffectsOffSprite;
             buttonEffects.onClick.RemoveListener(EffectsOff);
             buttonEffects.onClick.AddListener(EffectsOn);
         }
 
         private void EffectsOn()
         {
-            PlayerPrefs.SetInt("IsEffects", 0);
             audioMixer.SetFloat("Effects", sliderEffects.value);
-            buttonEffects.onClick.AddListener(EffectsOff);
+            PlayerPrefs.SetInt("IsEffects", 0);
+            buttonEffects.GetComponent<Image>().sprite = buttonEffectsSprite;
             buttonEffects.onClick.RemoveListener(EffectsOn);
+            buttonEffects.onClick.AddListener(EffectsOff);
         }
 
         public void ChangeMusic()
@@ -132,6 +135,7 @@ namespace UISystem
         {
             audioMixer.SetFloat("Music", -80f);
             PlayerPrefs.SetInt("IsMusic", 1);
+            buttonMusic.GetComponent<Image>().sprite = buttonMusicOffSprite;
             buttonMusic.onClick.RemoveListener(MusicOff);
             buttonMusic.onClick.AddListener(MusicOn);
         }
@@ -140,6 +144,7 @@ namespace UISystem
         {
             audioMixer.SetFloat("Music", sliderMusics.value);
             PlayerPrefs.SetInt("IsMusic", 0);
+            buttonMusic.GetComponent<Image>().sprite = buttonMusicSprite;
             buttonMusic.onClick.RemoveListener(MusicOn);
             buttonMusic.onClick.AddListener(MusicOff);
         }
