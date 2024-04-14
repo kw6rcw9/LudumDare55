@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class UserData
 {
     public string userName { get; set; } = null;
+
     public string userID { get; set; } = null;
 
     public UserData()
@@ -16,6 +17,7 @@ public class UserData
             userName = PlayerPrefs.GetString("UserName");
             userID = PlayerPrefs.GetString("UserID");
             Debug.Log(userName + "   " + userID);
+
         }
         else
         {
