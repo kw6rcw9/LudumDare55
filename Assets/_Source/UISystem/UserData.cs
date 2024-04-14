@@ -7,14 +7,7 @@ using UnityEngine.SceneManagement;
 public class UserData
 {
     public string userName { get; set; } = null;
-<<<<<<< HEAD
 
-    public UserData()
-    {
-        if (PlayerPrefs.HasKey("UserName"))
-        {
-            userName = PlayerPrefs.GetString("UserName");
-=======
     public string userID { get; set; } = null;
 
     public UserData()
@@ -24,7 +17,7 @@ public class UserData
             userName = PlayerPrefs.GetString("UserName");
             userID = PlayerPrefs.GetString("UserID");
             Debug.Log(userName + "   " + userID);
->>>>>>> origin/rest-client
+
         }
         else
         {
