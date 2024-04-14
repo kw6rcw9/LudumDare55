@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Bootstrapper : MonoBehaviour
 {
-    [SerializeField] private InputListener inputListener;
+    //[SerializeField] private InputListener inputListener;
     private void Awake()
     {
         //inputListener.Construct();
