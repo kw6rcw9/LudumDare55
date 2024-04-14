@@ -40,7 +40,7 @@ namespace UISystem
             if (PlayerPrefs.HasKey("Effects"))
             {
                 sliderEffects.value = PlayerPrefs.GetFloat("Effects");
-                sliderMusics.onValueChanged.AddListener(delegate {ChangeEffects();});
+                sliderEffects.onValueChanged.AddListener(delegate {ChangeEffects();});
             }
             else
             {
@@ -103,7 +103,7 @@ namespace UISystem
             audioMixer.SetFloat("Effects", sliderEffects.value);
             PlayerPrefs.SetFloat("Effects", sliderEffects.value);
             if (PlayerPrefs.GetInt("IsEffects") == 1) {
-                MusicOn();
+                EffectsOn();
             }
         }
 
@@ -118,11 +118,11 @@ namespace UISystem
 
         private void EffectsOn()
         {
-            PlayerPrefs.SetInt("IsEffects", 0);
             audioMixer.SetFloat("Effects", sliderEffects.value);
+            PlayerPrefs.SetInt("IsEffects", 0);
             buttonEffects.GetComponent<Image>().sprite = buttonEffectsSprite;
-            buttonEffects.onClick.AddListener(EffectsOff);
             buttonEffects.onClick.RemoveListener(EffectsOn);
+            buttonEffects.onClick.AddListener(EffectsOff);
         }
 
         public void ChangeMusic()
