@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: a50bd9a009c8dfc4ebd88cc8101225a7
 
+
 labels:
 - Tween
 - Tweening
@@ -18,11 +19,9 @@ labels:
 - TextMeshPro
 - Text
 
-
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-
