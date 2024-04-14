@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,8 @@ public class Registration : MonoBehaviour
         var userName = inputContent.text;
         if (UserData.ValidateName(userName)) {
             PlayerPrefs.SetString("UserName", userName);
+            string userID = Guid.NewGuid().ToString();
+            PlayerPrefs.SetString("UserID", userID);
             SceneManager.LoadScene("MainMenu");
         } else {
             errorContent.text = "It is forbiden to use the symbol \" in the name";
