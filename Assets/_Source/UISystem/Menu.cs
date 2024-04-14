@@ -20,6 +20,7 @@ namespace UISystem
         [SerializeField] private Sprite buttonEffectsOffSprite;
 
         private UserData userData;
+        private bool settingsFlag = false;
 
         void Awake() {
             userData = new UserData();
@@ -33,7 +34,15 @@ namespace UISystem
 
         public void ToggleSettings()
         {
-            
+            if (settingsFlag) {
+                menuPanel.SetActive(true);
+                settingsPanel.SetActive(false);
+                settingsFlag = !settingsFlag;
+            } else {
+                menuPanel.SetActive(false);
+                settingsPanel.SetActive(true);
+                settingsFlag = !settingsFlag;
+            }
         }
 
         void AwakeEffectsUI() {
@@ -84,18 +93,6 @@ namespace UISystem
         {
             PlayerPrefs.Save();
             SceneManager.LoadScene("Level1Scene");
-        }
-
-        public void Settings()
-        {
-            menuPanel.SetActive(false);
-            settingsPanel.SetActive(true);
-        }
-
-        public void Back()
-        {
-            menuPanel.SetActive(true);
-            settingsPanel.SetActive(false);
         }
 
         public void ChangeEffects()
