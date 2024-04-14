@@ -14,6 +14,10 @@ namespace UISystem
         [SerializeField] private Slider sliderMusics;
         [SerializeField] private Button buttonMusic;
         [SerializeField] private Button buttonEffects;
+        [SerializeField] private Sprite buttonMusicSprite;
+        [SerializeField] private Sprite buttonMusicOffSprite;
+        [SerializeField] private Sprite buttonEffectsSprite;
+        [SerializeField] private Sprite buttonEffectsOffSprite;
 
         private UserData userData;
 
@@ -107,6 +111,7 @@ namespace UISystem
         {
             audioMixer.SetFloat("Effects", -80f);
             PlayerPrefs.SetInt("IsEffects", 1);
+            buttonEffects.GetComponent<Image>().sprite = buttonEffectsOffSprite;
             buttonEffects.onClick.RemoveListener(EffectsOff);
             buttonEffects.onClick.AddListener(EffectsOn);
         }
@@ -115,6 +120,7 @@ namespace UISystem
         {
             PlayerPrefs.SetInt("IsEffects", 0);
             audioMixer.SetFloat("Effects", sliderEffects.value);
+            buttonEffects.GetComponent<Image>().sprite = buttonEffectsSprite;
             buttonEffects.onClick.AddListener(EffectsOff);
             buttonEffects.onClick.RemoveListener(EffectsOn);
         }
@@ -132,6 +138,7 @@ namespace UISystem
         {
             audioMixer.SetFloat("Music", -80f);
             PlayerPrefs.SetInt("IsMusic", 1);
+            buttonMusic.GetComponent<Image>().sprite = buttonMusicOffSprite;
             buttonMusic.onClick.RemoveListener(MusicOff);
             buttonMusic.onClick.AddListener(MusicOn);
         }
@@ -140,6 +147,7 @@ namespace UISystem
         {
             audioMixer.SetFloat("Music", sliderMusics.value);
             PlayerPrefs.SetInt("IsMusic", 0);
+            buttonMusic.GetComponent<Image>().sprite = buttonMusicSprite;
             buttonMusic.onClick.RemoveListener(MusicOn);
             buttonMusic.onClick.AddListener(MusicOff);
         }

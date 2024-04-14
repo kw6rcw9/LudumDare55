@@ -1,28 +1,13 @@
 fileFormatVersion: 2
-guid: 0b93140902948de4d87d1d9ef58ef219
+guid: 212ebfee793b1c1458a7611242ff7b9c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6178634034700588844
-    second: options1_0
+      213: 3446963973013023441
+    second: effectsButtonOff_0
   - first:
-      213: 2275875360077805374
-    second: options1_1
-  - first:
-      213: 5725912907177877732
-    second: options1_2
-  - first:
-      213: -1443219058697048106
-    second: options1_3
-  - first:
-      213: -3135138668071638142
-    second: options1_4
-  - first:
-      213: -130274019296348586
-    second: options1_5
-  - first:
-      213: -1169135705582461402
-    second: options1_6
+      213: 7142151940800221656
+    second: effectsButtonOff_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,22 +116,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: options_0
+      name: effectsButtonOff_1
       rect:
         serializedVersion: 2
-        x: 260
-        y: 340
-        width: 600
-        height: 140
+        x: 495
+        y: 580
+        width: 190
+        height: 190
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5309834f5f6cb20449abeb49d6efadbf
-      internalID: -845527155
+      spriteID: 8d1934379550e1360800000000000000
+      internalID: 7142151940800221656
       vertices: []
       indices: 
       edges: []
@@ -154,7 +139,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4b9d522b1d634d441a04a53f712b7af8
+    spriteID: 37fbde63657693c4e92892746353d4b6
     internalID: 0
     vertices: []
     indices: 
@@ -162,14 +147,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      options1_0: 6178634034700588844
-      options1_1: 2275875360077805374
-      options1_2: 5725912907177877732
-      options1_3: -1443219058697048106
-      options1_4: -3135138668071638142
-      options1_5: -130274019296348586
-      options1_6: -1169135705582461402
-      options_0: -845527155
+      effectsButtonOff_0: 3446963973013023441
+      effectsButtonOff_1: 7142151940800221656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
