@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 0ae7caf7cee44254292cbf4d851a136b
+guid: e1b48c29704065540aa67989a220774c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1835851025172125389
-    second: sliderBackground_0
-  - first:
-      213: 881631721407250341
-    second: sliderBackground_1
-  - first:
-      213: -1867072820350666647
-    second: sliderBackground_2
-  - first:
-      213: 7527904752908842929
-    second: sliderBackground_3
+      213: -8006958544109390896
+    second: Notebook_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sliderBackground_0
+      name: Notebook_0
       rect:
         serializedVersion: 2
-        x: 680
-        y: 419
-        width: 791
-        height: 106
+        x: 242
+        y: 107
+        width: 566
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,71 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3392418283fb586e0800000000000000
-      internalID: -1835851025172125389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliderBackground_1
-      rect:
-        serializedVersion: 2
-        x: 1517
-        y: 499
-        width: 38
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5aff139216f2c3c00800000000000000
-      internalID: 881631721407250341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliderBackground_2
-      rect:
-        serializedVersion: 2
-        x: 1494
-        y: 421
-        width: 80
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 968363d7923d616e0800000000000000
-      internalID: -1867072820350666647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sliderBackground_3
-      rect:
-        serializedVersion: 2
-        x: 1461
-        y: 392
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b73b1cfc7d787860800000000000000
-      internalID: 7527904752908842929
+      spriteID: 0d3b41770a191e090800000000000000
+      internalID: -8006958544109390896
       vertices: []
       indices: 
       edges: []
@@ -215,11 +143,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      sliderBackground_0: -1835851025172125389
-      sliderBackground_1: 881631721407250341
-      sliderBackground_2: -1867072820350666647
-      sliderBackground_3: 7527904752908842929
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
