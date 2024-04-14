@@ -210,7 +210,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 3
+          m_StringArgument: 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &260230808
@@ -351,7 +351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5452a65b33c96214194ab51afd84a3ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: {fileID: 1659365476}
 --- !u!114 &1252870328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,7 +540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5452a65b33c96214194ab51afd84a3ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: {fileID: 0}
 --- !u!1 &1659365475
 GameObject:
   m_ObjectHideFlags: 0
