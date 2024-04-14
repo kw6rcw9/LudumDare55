@@ -27,6 +27,11 @@ namespace UISystem
             AwakeEffectsUI();
         }
 
+        public void ToggleSettings()
+        {
+            
+        }
+
         void AwakeEffectsUI() {
             if (PlayerPrefs.HasKey("Effects"))
             {
