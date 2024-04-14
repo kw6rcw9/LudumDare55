@@ -16,7 +16,7 @@ public class Registration : MonoBehaviour
             PlayerPrefs.SetString("UserName", userName);
             SceneManager.LoadScene("MainMenu");
         } else {
-            errorContent.text = "The maximum name length is 10 characters";
+            errorContent.text = "It is forbiden to use the symbol \" in the name";
         }
     }
 }
