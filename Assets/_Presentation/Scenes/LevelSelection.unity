@@ -842,10 +842,10 @@ MonoBehaviour:
   sliderMusics: {fileID: 2118977965}
   buttonMusic: {fileID: 1619840464}
   buttonEffects: {fileID: 1724060374}
-  buttonMusicSprite: {fileID: 0}
-  buttonMusicOffSprite: {fileID: 0}
-  buttonEffectsSprite: {fileID: 0}
-  buttonEffectsOffSprite: {fileID: 0}
+  buttonMusicSprite: {fileID: 7668788789229401261, guid: 13cf3a38d95cc5c4fbc26d875cbd45e1, type: 3}
+  buttonMusicOffSprite: {fileID: -7826143040956627969, guid: 801692fea9f5ba44588f8b3f78a301b3, type: 3}
+  buttonEffectsSprite: {fileID: -216721026565521689, guid: df453afa98499d74e91988057783cc35, type: 3}
+  buttonEffectsOffSprite: {fileID: 7142151940800221656, guid: 212ebfee793b1c1458a7611242ff7b9c, type: 3}
 --- !u!114 &278145246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -922,8 +922,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1002878906}
-  - {fileID: 500324986}
   - {fileID: 1055617497}
+  - {fileID: 500324986}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
