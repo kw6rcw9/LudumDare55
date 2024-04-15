@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using Zenject;
 
@@ -7,7 +8,7 @@ namespace Core.RoomSystem
 {
     public class RoomController : MonoBehaviour
     {
-        [SerializeField] private RoomSettingsHandler roomSettingsHandler;
+        [field: SerializeField] public RoomSettingsHandler SettingsHandler { get; private set; }
         private GeneratorController _controller;
         private TaskScore _score;
         private AgressBar _bar;
@@ -24,8 +25,9 @@ namespace Core.RoomSystem
 
         public void CheckOnCorrectService(Services service)
         {
-            ChangeSprite?.Invoke(service);
-            if (service != roomSettingsHandler.Services)
+            if(service != Services.CorrectCitizens)
+                ChangeSprite?.Invoke(service);
+            if (service != SettingsHandler.Services)
             {
                 Debug.Log("loh");
                 _bar.TakeDamage();
@@ -33,13 +35,13 @@ namespace Core.RoomSystem
             else
             {
                 
-                _score.AddCompletedTask();
+                if(SettingsHandler.IsNeeded)
+                    _score.AddCompletedTask();
                 _bar.Heal();
                 if(_score.NeededAmountOfTasks == _controller.NeededCorrectTasksNum)
-                    NextLevel();
+                    StartCoroutine(NextLevel());
                 
             }
-
             StartCoroutine(CloseRoom());
 
 
@@ -59,8 +61,9 @@ namespace Core.RoomSystem
             gameObject.SetActive(false);
         }
 
-        private void NextLevel()
+        private IEnumerator NextLevel()
         {
+            yield return new WaitForSeconds(2f);
             Debug.Log("Next level");
             Game.NextLevel();
         }

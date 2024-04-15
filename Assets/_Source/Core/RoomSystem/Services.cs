@@ -10,6 +10,7 @@
         Sanitary,
         Roskomdanzor,
         Thieves,
-        Message
+        Message,
+        CorrectCitizens
     }
 }

@@ -39,6 +39,13 @@ namespace Core.InputSystem
                 {
                     _roomController = transform.GetChild(i).GetComponent<RoomController>();
                     _roomController.Construct(_score, _bar);
+                    Debug.Log(_roomController.SettingsHandler.Services);
+                    if (_roomController.SettingsHandler.Services == Services.CorrectCitizens
+                        || _roomController.SettingsHandler.Services == Services.Thieves )
+                    {
+                        _inputSystem.Enable();
+                        _inputSystem.GamePlay.Correct.performed +=  CorrectCitizens;
+                    }
                     Debug.Log(_roomController);
                 }
             }
@@ -65,6 +72,7 @@ namespace Core.InputSystem
             _inputSystem.GamePlay.SanitaryInspection.performed -= CallSanitary;
             _inputSystem.GamePlay.Roscomnadzor.performed -= CallRoskomdanzor;
             _inputSystem.GamePlay.Thieves.performed -=  CallThieves;
+            _inputSystem.GamePlay.Correct.performed -=  CorrectCitizens;
             _inputSystem.Disable();
         }
 
@@ -78,27 +86,31 @@ namespace Core.InputSystem
         }
         private void CallFireDepartment(InputAction.CallbackContext obj)
         {
-        
+            _roomController.CheckOnCorrectService(Services.FireDepartment);
         }
         private void CallGasService(InputAction.CallbackContext obj)
         {
-        
+            _roomController.CheckOnCorrectService(Services.GasService);
         }
         private void CallMortuary(InputAction.CallbackContext obj)
         {
-        
+            _roomController.CheckOnCorrectService(Services.Mortuary);
         }
         private void CallSanitary(InputAction.CallbackContext obj)
         {
-        
+            _roomController.CheckOnCorrectService(Services.Sanitary);
         }
         private void CallRoskomdanzor(InputAction.CallbackContext obj)
         {
-        
+            _roomController.CheckOnCorrectService(Services.Roskomdanzor);
         }
         private void CallThieves(InputAction.CallbackContext obj)
         {
-        
+            _roomController.CheckOnCorrectService(Services.Thieves);
+        }
+        private void CorrectCitizens(InputAction.CallbackContext obj)
+        {
+            _roomController.CheckOnCorrectService(Services.CorrectCitizens);
         }
 
     
