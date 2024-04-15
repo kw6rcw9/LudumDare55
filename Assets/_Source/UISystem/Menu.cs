@@ -93,7 +93,9 @@ namespace UISystem
         public void Play()
         {
             PlayerPrefs.Save();
-            SceneManager.LoadScene("Level1Scene");
+            PlayerPrefs.SetString("Days", "0000000");
+            PlayerPrefs.SetInt("DayCounter", 1);
+            SceneManager.LoadScene("IntroScene");
         }
 
         public void ChangeEffects()

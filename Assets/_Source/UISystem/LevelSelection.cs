@@ -17,16 +17,10 @@ namespace UISystem
         private string days;
         private int dayCounter = 1;
         public void Awake() {
-            dayCounter = 1;
-                PlayerPrefs.SetString("Days", "0100000");
-            if (!PlayerPrefs.HasKey("Days")) {
-                PlayerPrefs.SetString("Days", "0000000");
-            }
-
+            dayCounter = PlayerPrefs.GetInt("DayCounter");
             days = PlayerPrefs.GetString("Days");
             for (int i = 0; i < 7; i++) {
                 if (days[i] == '1') {
-                    dayCounter ++;
                     images[i].GetComponent<Image>().sprite = rowOffSprite;
                 } else {
                     int levelID = i;
@@ -38,7 +32,6 @@ namespace UISystem
         }
 
         public void chooseLevel(int levelID) {
-            Debug.Log("Choosed level: " + levelID);
         }
     }
 }

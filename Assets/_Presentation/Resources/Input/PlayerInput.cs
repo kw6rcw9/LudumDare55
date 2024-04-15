@@ -116,6 +116,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Enter"",
+                    ""type"": ""Button"",
+                    ""id"": ""d23443b1-bd78-40d0-b1d1-9f72f9104d9c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -228,6 +237,17 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""action"": ""Thieves"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ccd1d234-8744-4c4c-8b42-a83d06291cd1"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Enter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -252,6 +272,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         m_GamePlay_SanitaryInspection = m_GamePlay.FindAction("SanitaryInspection", throwIfNotFound: true);
         m_GamePlay_Roscomnadzor = m_GamePlay.FindAction("Roscomnadzor", throwIfNotFound: true);
         m_GamePlay_Thieves = m_GamePlay.FindAction("Thieves", throwIfNotFound: true);
+        m_GamePlay_Enter = m_GamePlay.FindAction("Enter", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -323,6 +344,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_GamePlay_SanitaryInspection;
     private readonly InputAction m_GamePlay_Roscomnadzor;
     private readonly InputAction m_GamePlay_Thieves;
+    private readonly InputAction m_GamePlay_Enter;
     public struct GamePlayActions
     {
         private @PlayerInput m_Wrapper;
@@ -337,6 +359,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         public InputAction @SanitaryInspection => m_Wrapper.m_GamePlay_SanitaryInspection;
         public InputAction @Roscomnadzor => m_Wrapper.m_GamePlay_Roscomnadzor;
         public InputAction @Thieves => m_Wrapper.m_GamePlay_Thieves;
+        public InputAction @Enter => m_Wrapper.m_GamePlay_Enter;
         public InputActionMap Get() { return m_Wrapper.m_GamePlay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -376,6 +399,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Thieves.started += instance.OnThieves;
             @Thieves.performed += instance.OnThieves;
             @Thieves.canceled += instance.OnThieves;
+            @Enter.started += instance.OnEnter;
+            @Enter.performed += instance.OnEnter;
+            @Enter.canceled += instance.OnEnter;
         }
 
         private void UnregisterCallbacks(IGamePlayActions instance)
@@ -410,6 +436,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Thieves.started -= instance.OnThieves;
             @Thieves.performed -= instance.OnThieves;
             @Thieves.canceled -= instance.OnThieves;
+            @Enter.started -= instance.OnEnter;
+            @Enter.performed -= instance.OnEnter;
+            @Enter.canceled -= instance.OnEnter;
         }
 
         public void RemoveCallbacks(IGamePlayActions instance)
@@ -448,5 +477,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         void OnSanitaryInspection(InputAction.CallbackContext context);
         void OnRoscomnadzor(InputAction.CallbackContext context);
         void OnThieves(InputAction.CallbackContext context);
+        void OnEnter(InputAction.CallbackContext context);
     }
 }

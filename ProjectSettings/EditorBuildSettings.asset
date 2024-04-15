@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/_Presentation/Scenes/MainMenu.unity
     guid: 192a49e4d74b6bd4593699ae695e1139
   - enabled: 1
-    path: Assets/_Presentation/Scenes/Level1Scene.unity
-    guid: 82ef0b845aa2be143a5eaf2f3e71fc85
-  - enabled: 0
-    path: Assets/_Presentation/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/_Presentation/Scenes/Registration.unity
     guid: 04287bf40d81c834890664339d07e749
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/IntroScene.unity
+    guid: f1fab6b33cea82b47a60f5e1a6d33b77
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/LevelSelection.unity
+    guid: 7fbe88a49861cfe4fa3a44c4c92fa2df
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
