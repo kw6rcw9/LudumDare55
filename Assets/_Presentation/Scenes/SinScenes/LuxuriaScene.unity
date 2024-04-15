@@ -372,6 +372,8 @@ MonoBehaviour:
   defaultDamage: 0.165
   <SpeedOfFilling>k__BackingField: 1
   heal: 0.08
+  healthBarBorder: {fileID: 0}
+  redColoredBorder: {fileID: 0}
 --- !u!114 &70858553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -896,6 +898,7 @@ MonoBehaviour:
   - {fileID: 7477652576635262643, guid: 5aa1913e0e1ec934881084b48368b46f, type: 3}
   - {fileID: 7477652576635262643, guid: 7cc09fa8414c7574abdbbe1b69155338, type: 3}
   - {fileID: 7477652576635262643, guid: 4705a8bdc00d17242a7189682969c270, type: 3}
+  - {fileID: 7477652576635262643, guid: b78ba820a0583244ab1f04ca04ee6b3d, type: 3}
   targetService: 6
   parent: {fileID: 318919885}
   <Hall>k__BackingField: {fileID: 2112292611}
