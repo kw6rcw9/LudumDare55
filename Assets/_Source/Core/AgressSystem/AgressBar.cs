@@ -15,6 +15,7 @@ public class AgressBar : MonoBehaviour
 
    [SerializeField] private float heal;
    [SerializeField] private GameObject healthBarBorder;
+   [SerializeField] private GameObject redColoredBorder;
    public static Action UpdateBar;
 
    public void TakeDamage()
@@ -32,6 +33,7 @@ public class AgressBar : MonoBehaviour
       }
     Vector3 scale = new Vector3(1f, 1.3f, 1f);
     healthBarBorder.GetComponent<Image>().color = new Color32(160, 0, 0, 255);
+    redColoredBorder.GetComponent<Image>().DOColor(new Color32(255, 255, 255, 90), 0.1f).SetEase(Ease.InOutSine);
     healthBarBorder.transform.DOScale(scale, 0.1f).SetEase(Ease.InOutSine).OnComplete(returnNormalScale);
     UpdateBar?.Invoke();
     
@@ -55,10 +57,10 @@ public class AgressBar : MonoBehaviour
     void returnNormalScale() {
         Vector3 scale = new Vector3(1f, 1f, 1f);
         healthBarBorder.transform.DOScale(scale, 0.15f);
-        healthBarBorder.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+        redColoredBorder.GetComponent<Image>().DOColor(new Color32(255, 255, 255, 0), 0.5f).SetEase(Ease.InOutSine);
+        healthBarBorder.GetComponent<Image>().DOColor(new Color32(255, 255, 255, 255), 0.5f).SetEase(Ease.InOutSine);
     }
 
     void Start() {
-        Invoke("TakeDamage", 3f);
     }
 }

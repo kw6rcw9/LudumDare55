@@ -1,0 +1,7302 @@
+fileFormatVersion: 2
+guid: c16feb4dafac03b4a9e57893ebd6bd27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3895385812055732859
+    second: bloodyBorder_0
+  - first:
+      213: 8691527273093038828
+    second: bloodyBorder_1
+  - first:
+      213: 1844502130762921806
+    second: bloodyBorder_2
+  - first:
+      213: 195123537109705253
+    second: bloodyBorder_3
+  - first:
+      213: 466581816067704234
+    second: bloodyBorder_4
+  - first:
+      213: 8772553902005157971
+    second: bloodyBorder_5
+  - first:
+      213: 2398827040320842869
+    second: bloodyBorder_6
+  - first:
+      213: -8658529648798384807
+    second: bloodyBorder_7
+  - first:
+      213: -8702192440663634092
+    second: bloodyBorder_8
+  - first:
+      213: 5837530173142291404
+    second: bloodyBorder_9
+  - first:
+      213: -2973135286928566310
+    second: bloodyBorder_10
+  - first:
+      213: 6193163046476132124
+    second: bloodyBorder_11
+  - first:
+      213: -7914654946059763390
+    second: bloodyBorder_12
+  - first:
+      213: -4759264069301585939
+    second: bloodyBorder_13
+  - first:
+      213: 3722683293922343661
+    second: bloodyBorder_14
+  - first:
+      213: 326499389754344540
+    second: bloodyBorder_15
+  - first:
+      213: 2411797052775819695
+    second: bloodyBorder_16
+  - first:
+      213: 5296874558301884539
+    second: bloodyBorder_17
+  - first:
+      213: 5557763182185359931
+    second: bloodyBorder_18
+  - first:
+      213: 4134984246421555442
+    second: bloodyBorder_19
+  - first:
+      213: -1214566476830801905
+    second: bloodyBorder_20
+  - first:
+      213: 1068836629995803619
+    second: bloodyBorder_21
+  - first:
+      213: 2490520182913457924
+    second: bloodyBorder_22
+  - first:
+      213: 4273768895469708095
+    second: bloodyBorder_23
+  - first:
+      213: 7934328293277837287
+    second: bloodyBorder_24
+  - first:
+      213: 4572543367748654014
+    second: bloodyBorder_25
+  - first:
+      213: -1932954189355322544
+    second: bloodyBorder_26
+  - first:
+      213: -6043666508900330724
+    second: bloodyBorder_27
+  - first:
+      213: 2070839641980765220
+    second: bloodyBorder_28
+  - first:
+      213: -5589675705230506666
+    second: bloodyBorder_29
+  - first:
+      213: -6772222164669876296
+    second: bloodyBorder_30
+  - first:
+      213: 3861924922132264327
+    second: bloodyBorder_31
+  - first:
+      213: 4649477998834170072
+    second: bloodyBorder_32
+  - first:
+      213: -5908700280396386640
+    second: bloodyBorder_33
+  - first:
+      213: 6475163966459031639
+    second: bloodyBorder_34
+  - first:
+      213: 7120833377970368336
+    second: bloodyBorder_35
+  - first:
+      213: -4715857092251342280
+    second: bloodyBorder_36
+  - first:
+      213: 6244190283634227663
+    second: bloodyBorder_37
+  - first:
+      213: 8649548133646767945
+    second: bloodyBorder_38
+  - first:
+      213: -1110208159676973510
+    second: bloodyBorder_39
+  - first:
+      213: -5762639919857695111
+    second: bloodyBorder_40
+  - first:
+      213: 7545858030982223567
+    second: bloodyBorder_41
+  - first:
+      213: -6137318247554849438
+    second: bloodyBorder_42
+  - first:
+      213: -2971049180489594214
+    second: bloodyBorder_43
+  - first:
+      213: -1927464341279094701
+    second: bloodyBorder_44
+  - first:
+      213: 4672887088607485576
+    second: bloodyBorder_45
+  - first:
+      213: -5818424534408289403
+    second: bloodyBorder_46
+  - first:
+      213: 6409743326256834118
+    second: bloodyBorder_47
+  - first:
+      213: -600188784627666759
+    second: bloodyBorder_48
+  - first:
+      213: 6547647689631478577
+    second: bloodyBorder_49
+  - first:
+      213: -5517380722613539961
+    second: bloodyBorder_50
+  - first:
+      213: -8434902912939049526
+    second: bloodyBorder_51
+  - first:
+      213: 6177482664305891101
+    second: bloodyBorder_52
+  - first:
+      213: -493609976570900993
+    second: bloodyBorder_53
+  - first:
+      213: -7236100571663713267
+    second: bloodyBorder_54
+  - first:
+      213: 7857924679327970113
+    second: bloodyBorder_55
+  - first:
+      213: 5474917894378704650
+    second: bloodyBorder_56
+  - first:
+      213: 2556962597610647907
+    second: bloodyBorder_57
+  - first:
+      213: -8118058803964661655
+    second: bloodyBorder_58
+  - first:
+      213: 145957835454047909
+    second: bloodyBorder_59
+  - first:
+      213: -12275359035819228
+    second: bloodyBorder_60
+  - first:
+      213: -6182853566610329130
+    second: bloodyBorder_61
+  - first:
+      213: -676769548273188015
+    second: bloodyBorder_62
+  - first:
+      213: 2531646430719279349
+    second: bloodyBorder_63
+  - first:
+      213: -8050421813456532536
+    second: bloodyBorder_64
+  - first:
+      213: 3656874464629255143
+    second: bloodyBorder_65
+  - first:
+      213: 9131610232791543681
+    second: bloodyBorder_66
+  - first:
+      213: -5013972776525843861
+    second: bloodyBorder_67
+  - first:
+      213: -342148824258009962
+    second: bloodyBorder_68
+  - first:
+      213: 836530430464876419
+    second: bloodyBorder_69
+  - first:
+      213: -7512312417491560943
+    second: bloodyBorder_70
+  - first:
+      213: -1053863720951915173
+    second: bloodyBorder_71
+  - first:
+      213: -3460953131315563574
+    second: bloodyBorder_72
+  - first:
+      213: 3878246914173572347
+    second: bloodyBorder_73
+  - first:
+      213: -8002862022506878840
+    second: bloodyBorder_74
+  - first:
+      213: 7080446697495071366
+    second: bloodyBorder_75
+  - first:
+      213: 4036452446213909435
+    second: bloodyBorder_76
+  - first:
+      213: -5781268845492588981
+    second: bloodyBorder_77
+  - first:
+      213: -2811228826698163414
+    second: bloodyBorder_78
+  - first:
+      213: 6821943186287188155
+    second: bloodyBorder_79
+  - first:
+      213: 6206495659561319611
+    second: bloodyBorder_80
+  - first:
+      213: -496584072512891833
+    second: bloodyBorder_81
+  - first:
+      213: -2821116614856259607
+    second: bloodyBorder_82
+  - first:
+      213: -2295787612176972469
+    second: bloodyBorder_83
+  - first:
+      213: -5508184334726301007
+    second: bloodyBorder_84
+  - first:
+      213: 5395085138664771249
+    second: bloodyBorder_85
+  - first:
+      213: -4257173709989974518
+    second: bloodyBorder_86
+  - first:
+      213: 4293026151408712068
+    second: bloodyBorder_87
+  - first:
+      213: 7485053561393513016
+    second: bloodyBorder_88
+  - first:
+      213: -529375412259224983
+    second: bloodyBorder_89
+  - first:
+      213: -4731329050623229256
+    second: bloodyBorder_90
+  - first:
+      213: 7940769444792730860
+    second: bloodyBorder_91
+  - first:
+      213: -5775424337272943656
+    second: bloodyBorder_92
+  - first:
+      213: 1625926780831398908
+    second: bloodyBorder_93
+  - first:
+      213: 5701781200078654027
+    second: bloodyBorder_94
+  - first:
+      213: -2125420824432869808
+    second: bloodyBorder_95
+  - first:
+      213: 7163809424249614344
+    second: bloodyBorder_96
+  - first:
+      213: 4097686991653728331
+    second: bloodyBorder_97
+  - first:
+      213: 6279253785374918889
+    second: bloodyBorder_98
+  - first:
+      213: -3407447612432603538
+    second: bloodyBorder_99
+  - first:
+      213: -4519071139721406559
+    second: bloodyBorder_100
+  - first:
+      213: 1655562842709032829
+    second: bloodyBorder_101
+  - first:
+      213: -578064495260949081
+    second: bloodyBorder_102
+  - first:
+      213: -8382677269512683479
+    second: bloodyBorder_103
+  - first:
+      213: -6295925340662275229
+    second: bloodyBorder_104
+  - first:
+      213: -1297259688836085461
+    second: bloodyBorder_105
+  - first:
+      213: 4730245653627040823
+    second: bloodyBorder_106
+  - first:
+      213: 8441288021896339904
+    second: bloodyBorder_107
+  - first:
+      213: -9059451153318098389
+    second: bloodyBorder_108
+  - first:
+      213: 2033074920304718016
+    second: bloodyBorder_109
+  - first:
+      213: 2771391246286724325
+    second: bloodyBorder_110
+  - first:
+      213: 368352500376531045
+    second: bloodyBorder_111
+  - first:
+      213: 4085748101666247466
+    second: bloodyBorder_112
+  - first:
+      213: 2910195152050875763
+    second: bloodyBorder_113
+  - first:
+      213: 7921780732570352993
+    second: bloodyBorder_114
+  - first:
+      213: -7069789809878228313
+    second: bloodyBorder_115
+  - first:
+      213: 6714921849160043073
+    second: bloodyBorder_116
+  - first:
+      213: -3500048988323311452
+    second: bloodyBorder_117
+  - first:
+      213: -6154737446294545130
+    second: bloodyBorder_118
+  - first:
+      213: -5945502921126946519
+    second: bloodyBorder_119
+  - first:
+      213: 3905696921516228911
+    second: bloodyBorder_120
+  - first:
+      213: 45481557096419422
+    second: bloodyBorder_121
+  - first:
+      213: 8585263518099202137
+    second: bloodyBorder_122
+  - first:
+      213: 8188289332914653674
+    second: bloodyBorder_123
+  - first:
+      213: -4574072496659031098
+    second: bloodyBorder_124
+  - first:
+      213: -2300577533037791484
+    second: bloodyBorder_125
+  - first:
+      213: -6161590025266776553
+    second: bloodyBorder_126
+  - first:
+      213: 7174490224037921638
+    second: bloodyBorder_127
+  - first:
+      213: 477079099543673597
+    second: bloodyBorder_128
+  - first:
+      213: 4074305778152662940
+    second: bloodyBorder_129
+  - first:
+      213: -118087516340086304
+    second: bloodyBorder_130
+  - first:
+      213: -6284564757528350798
+    second: bloodyBorder_131
+  - first:
+      213: -8255658565330799687
+    second: bloodyBorder_132
+  - first:
+      213: 5298482649765855082
+    second: bloodyBorder_133
+  - first:
+      213: -2714212287432047082
+    second: bloodyBorder_134
+  - first:
+      213: -4167283802666390963
+    second: bloodyBorder_135
+  - first:
+      213: 2414994734617018345
+    second: bloodyBorder_136
+  - first:
+      213: 5206933053451369033
+    second: bloodyBorder_137
+  - first:
+      213: -16840761968215744
+    second: bloodyBorder_138
+  - first:
+      213: -2684613475641664201
+    second: bloodyBorder_139
+  - first:
+      213: 4759757217968366925
+    second: bloodyBorder_140
+  - first:
+      213: -232107827654656573
+    second: bloodyBorder_141
+  - first:
+      213: -5150671051984003604
+    second: bloodyBorder_142
+  - first:
+      213: 4444851453455316865
+    second: bloodyBorder_143
+  - first:
+      213: 296683314738594001
+    second: bloodyBorder_144
+  - first:
+      213: 8458251664068171185
+    second: bloodyBorder_145
+  - first:
+      213: -5432608862198924724
+    second: bloodyBorder_146
+  - first:
+      213: -6310670749590401948
+    second: bloodyBorder_147
+  - first:
+      213: 501341224013527191
+    second: bloodyBorder_148
+  - first:
+      213: 6336017108161472296
+    second: bloodyBorder_149
+  - first:
+      213: 4986539252125589331
+    second: bloodyBorder_150
+  - first:
+      213: 7042469170099274480
+    second: bloodyBorder_151
+  - first:
+      213: -4152031117394324755
+    second: bloodyBorder_152
+  - first:
+      213: 3839907448761888868
+    second: bloodyBorder_153
+  - first:
+      213: 7281618476232676726
+    second: bloodyBorder_154
+  - first:
+      213: -1994753846704668594
+    second: bloodyBorder_155
+  - first:
+      213: 1902156243817429564
+    second: bloodyBorder_156
+  - first:
+      213: -3795476042794702891
+    second: bloodyBorder_157
+  - first:
+      213: -1293994837282158369
+    second: bloodyBorder_158
+  - first:
+      213: -8780303729587393607
+    second: bloodyBorder_159
+  - first:
+      213: -5525464389481590348
+    second: bloodyBorder_160
+  - first:
+      213: -8238568014639487697
+    second: bloodyBorder_161
+  - first:
+      213: -7823408909739907340
+    second: bloodyBorder_162
+  - first:
+      213: -4736420446046571990
+    second: bloodyBorder_163
+  - first:
+      213: -406586913943071044
+    second: bloodyBorder_164
+  - first:
+      213: -810725016858841516
+    second: bloodyBorder_165
+  - first:
+      213: 214064038182222100
+    second: bloodyBorder_166
+  - first:
+      213: -8533552393122067621
+    second: bloodyBorder_167
+  - first:
+      213: -3509541794121752686
+    second: bloodyBorder_168
+  - first:
+      213: -3000181381321539148
+    second: bloodyBorder_169
+  - first:
+      213: 1792006996207416703
+    second: bloodyBorder_170
+  - first:
+      213: -4035159476015001147
+    second: bloodyBorder_171
+  - first:
+      213: 1397126941124948257
+    second: bloodyBorder_172
+  - first:
+      213: -1373598572408244652
+    second: bloodyBorder_173
+  - first:
+      213: -1738358744719471960
+    second: bloodyBorder_174
+  - first:
+      213: 3798386092963191660
+    second: bloodyBorder_175
+  - first:
+      213: -5872018892369219280
+    second: bloodyBorder_176
+  - first:
+      213: -3025326073772570252
+    second: bloodyBorder_177
+  - first:
+      213: -3058797911908312441
+    second: bloodyBorder_178
+  - first:
+      213: -345443106433951492
+    second: bloodyBorder_179
+  - first:
+      213: -1257265792303999942
+    second: bloodyBorder_180
+  - first:
+      213: -3566980323586193119
+    second: bloodyBorder_181
+  - first:
+      213: 887223529553958741
+    second: bloodyBorder_182
+  - first:
+      213: -6622389254843845354
+    second: bloodyBorder_183
+  - first:
+      213: 3721577525881922642
+    second: bloodyBorder_184
+  - first:
+      213: -3300778998503766837
+    second: bloodyBorder_185
+  - first:
+      213: -8005780017316384203
+    second: bloodyBorder_186
+  - first:
+      213: -1093860824907347151
+    second: bloodyBorder_187
+  - first:
+      213: -4409872832337085007
+    second: bloodyBorder_188
+  - first:
+      213: 6803662194885569527
+    second: bloodyBorder_189
+  - first:
+      213: -4698984293410068548
+    second: bloodyBorder_190
+  - first:
+      213: 2566013986932758550
+    second: bloodyBorder_191
+  - first:
+      213: 1768799798094356767
+    second: bloodyBorder_192
+  - first:
+      213: 8937637796131148416
+    second: bloodyBorder_193
+  - first:
+      213: -7295948836915047030
+    second: bloodyBorder_194
+  - first:
+      213: -477903353515676325
+    second: bloodyBorder_195
+  - first:
+      213: -6167204066434057821
+    second: bloodyBorder_196
+  - first:
+      213: 3362914612038197783
+    second: bloodyBorder_197
+  - first:
+      213: 6445989180829885396
+    second: bloodyBorder_198
+  - first:
+      213: 3989350771724334924
+    second: bloodyBorder_199
+  - first:
+      213: -2670337973235506619
+    second: bloodyBorder_200
+  - first:
+      213: 3853434831477658759
+    second: bloodyBorder_201
+  - first:
+      213: -4138757706613490187
+    second: bloodyBorder_202
+  - first:
+      213: 8685034634056987824
+    second: bloodyBorder_203
+  - first:
+      213: 745270289936363327
+    second: bloodyBorder_204
+  - first:
+      213: -3051863183263759927
+    second: bloodyBorder_205
+  - first:
+      213: 2587191270917238119
+    second: bloodyBorder_206
+  - first:
+      213: -7053491343051626278
+    second: bloodyBorder_207
+  - first:
+      213: 8821450865579123998
+    second: bloodyBorder_208
+  - first:
+      213: -9051343291926482201
+    second: bloodyBorder_209
+  - first:
+      213: -1964799866524594534
+    second: bloodyBorder_210
+  - first:
+      213: 3629981073031691429
+    second: bloodyBorder_211
+  - first:
+      213: -7448299207492352805
+    second: bloodyBorder_212
+  - first:
+      213: -3851323095498603679
+    second: bloodyBorder_213
+  - first:
+      213: 3732100748834808548
+    second: bloodyBorder_214
+  - first:
+      213: 2311726534834566662
+    second: bloodyBorder_215
+  - first:
+      213: 2457313804092769105
+    second: bloodyBorder_216
+  - first:
+      213: -1310727024960829389
+    second: bloodyBorder_217
+  - first:
+      213: 8482469172019266685
+    second: bloodyBorder_218
+  - first:
+      213: -7506971009865202961
+    second: bloodyBorder_219
+  - first:
+      213: 388427470109310657
+    second: bloodyBorder_220
+  - first:
+      213: 8494626176005247829
+    second: bloodyBorder_221
+  - first:
+      213: 5191023359648476297
+    second: bloodyBorder_222
+  - first:
+      213: 5446146423798827037
+    second: bloodyBorder_223
+  - first:
+      213: -3620431601812379551
+    second: bloodyBorder_224
+  - first:
+      213: -3083486264857072858
+    second: bloodyBorder_225
+  - first:
+      213: -8786705901850678130
+    second: bloodyBorder_226
+  - first:
+      213: 9045857135017481807
+    second: bloodyBorder_227
+  - first:
+      213: 8742232545708272402
+    second: bloodyBorder_228
+  - first:
+      213: -6805404805707483904
+    second: bloodyBorder_229
+  - first:
+      213: 1025903581551935532
+    second: bloodyBorder_230
+  - first:
+      213: 5480393909231725998
+    second: bloodyBorder_231
+  - first:
+      213: -4105917328293435065
+    second: bloodyBorder_232
+  - first:
+      213: 7088508161180094216
+    second: bloodyBorder_233
+  - first:
+      213: 5983107154827548629
+    second: bloodyBorder_234
+  - first:
+      213: -7790657499037988198
+    second: bloodyBorder_235
+  - first:
+      213: -2633413678650806358
+    second: bloodyBorder_236
+  - first:
+      213: -7494820698122467414
+    second: bloodyBorder_237
+  - first:
+      213: 3435551339828264951
+    second: bloodyBorder_238
+  - first:
+      213: -4369602855893523753
+    second: bloodyBorder_239
+  - first:
+      213: 7932012543318697231
+    second: bloodyBorder_240
+  - first:
+      213: 6809357831045220263
+    second: bloodyBorder_241
+  - first:
+      213: 7935232880229157467
+    second: bloodyBorder_242
+  - first:
+      213: -2736551018315920568
+    second: bloodyBorder_243
+  - first:
+      213: -4173531051909097054
+    second: bloodyBorder_244
+  - first:
+      213: -7132861269240821857
+    second: bloodyBorder_245
+  - first:
+      213: 5958714550492199917
+    second: bloodyBorder_246
+  - first:
+      213: -7660267126722780116
+    second: bloodyBorder_247
+  - first:
+      213: -229739407342480819
+    second: bloodyBorder_248
+  - first:
+      213: 3460048413360834092
+    second: bloodyBorder_249
+  - first:
+      213: 7466761442422345665
+    second: bloodyBorder_250
+  - first:
+      213: -3652141192960339748
+    second: bloodyBorder_251
+  - first:
+      213: -7155264219235532754
+    second: bloodyBorder_252
+  - first:
+      213: 7934717303993433518
+    second: bloodyBorder_253
+  - first:
+      213: 4983299254299925601
+    second: bloodyBorder_254
+  - first:
+      213: -4152790209747934131
+    second: bloodyBorder_255
+  - first:
+      213: 7382173662710745800
+    second: bloodyBorder_256
+  - first:
+      213: 8362796816613278503
+    second: bloodyBorder_257
+  - first:
+      213: -3918977156310269928
+    second: bloodyBorder_258
+  - first:
+      213: 3852851732862769935
+    second: bloodyBorder_259
+  - first:
+      213: 3258594178280944287
+    second: bloodyBorder_260
+  - first:
+      213: -6460735982224801685
+    second: bloodyBorder_261
+  - first:
+      213: 2110501287943260912
+    second: bloodyBorder_262
+  - first:
+      213: -5548949392869851511
+    second: bloodyBorder_263
+  - first:
+      213: -7305764551911253322
+    second: bloodyBorder_264
+  - first:
+      213: -6152035165051119717
+    second: bloodyBorder_265
+  - first:
+      213: 2072751077659924582
+    second: bloodyBorder_266
+  - first:
+      213: -1244981537546932917
+    second: bloodyBorder_267
+  - first:
+      213: -218249216108279870
+    second: bloodyBorder_268
+  - first:
+      213: -9043037231375737908
+    second: bloodyBorder_269
+  - first:
+      213: -5802096982051139376
+    second: bloodyBorder_270
+  - first:
+      213: -5542075235164157268
+    second: bloodyBorder_271
+  - first:
+      213: 4583498205730852066
+    second: bloodyBorder_272
+  - first:
+      213: 3967278827489870810
+    second: bloodyBorder_273
+  - first:
+      213: -3349676813880292728
+    second: bloodyBorder_274
+  - first:
+      213: -5248344591172730809
+    second: bloodyBorder_275
+  - first:
+      213: 7495919922475694355
+    second: bloodyBorder_276
+  - first:
+      213: -8172880355081439708
+    second: bloodyBorder_277
+  - first:
+      213: 8074388691196459691
+    second: bloodyBorder_278
+  - first:
+      213: 2001378991207593319
+    second: bloodyBorder_279
+  - first:
+      213: -1822256929696827887
+    second: bloodyBorder_280
+  - first:
+      213: -774382664554608075
+    second: bloodyBorder_281
+  - first:
+      213: -5250094643231882693
+    second: bloodyBorder_282
+  - first:
+      213: 6279733118309825946
+    second: bloodyBorder_283
+  - first:
+      213: -3857317884138492513
+    second: bloodyBorder_284
+  - first:
+      213: -7382417250651448769
+    second: bloodyBorder_285
+  - first:
+      213: 9191798223245516331
+    second: bloodyBorder_286
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloodyBorder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 715
+        width: 1200
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72bda6e1c03f0630800000000000000
+      internalID: 3895385812055732859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 730
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2845451028e9870800000000000000
+      internalID: 8691527273093038828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 721
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4733935aecf89910800000000000000
+      internalID: 1844502130762921806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 705
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522edbcb2d735b200800000000000000
+      internalID: 195123537109705253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 739
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa54f5d80b1a97600800000000000000
+      internalID: 466581816067704234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 738
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3500cfd7b4f5eb970800000000000000
+      internalID: 8772553902005157971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 752
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cecefcb785a4120800000000000000
+      internalID: 2398827040320842869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 732
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d3f26c829b6d780800000000000000
+      internalID: -8658529648798384807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 715
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f8727d41a9b3780800000000000000
+      internalID: -8702192440663634092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 695
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc355cf83c2130150800000000000000
+      internalID: 5837530173142291404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 732
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad79179753d4db6d0800000000000000
+      internalID: -2973135286928566310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 723
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f294d5af882f550800000000000000
+      internalID: 6193163046476132124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 747
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241c15c924f792290800000000000000
+      internalID: -7914654946059763390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 745
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7bffc6b82b3fdb0800000000000000
+      internalID: -4759264069301585939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 734
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deab5817bb0a9a330800000000000000
+      internalID: 3722683293922343661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 723
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5480b11775f78400800000000000000
+      internalID: 326499389754344540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 740
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9690924ac687120800000000000000
+      internalID: 2411797052775819695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 700
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b705363c857428940800000000000000
+      internalID: 5296874558301884539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 763
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a27ebfa24212d40800000000000000
+      internalID: 5557763182185359931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 757
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f80bc7934a626930800000000000000
+      internalID: 4134984246421555442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_20
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 744
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f000760793ef42fe0800000000000000
+      internalID: -1214566476830801905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 744
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e353d5804545de00800000000000000
+      internalID: 1068836629995803619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 760
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f5f7839ea109220800000000000000
+      internalID: 2490520182913457924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_23
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 716
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33e592ca2a7f4b30800000000000000
+      internalID: 4273768895469708095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 709
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7282c7b856c1e60800000000000000
+      internalID: 7934328293277837287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_25
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 753
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb31ab277ffe47f30800000000000000
+      internalID: 4572543367748654014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 748
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0537f50f764cc25e0800000000000000
+      internalID: -1932954189355322544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_27
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 758
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c131214b455902ca0800000000000000
+      internalID: -6043666508900330724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_28
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 748
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4248f0fbea91dbc10800000000000000
+      internalID: 2070839641980765220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_29
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 718
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655ca1cbf8b7d62b0800000000000000
+      internalID: -5589675705230506666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_30
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 755
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b733de62db3402a0800000000000000
+      internalID: -6772222164669876296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_31
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 706
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785fbec5140589530800000000000000
+      internalID: 3861924922132264327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 742
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8318f1b93468040800000000000000
+      internalID: 4649477998834170072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 726
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee8be8664100ea0800000000000000
+      internalID: -5908700280396386640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_34
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 755
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750333312576cd950800000000000000
+      internalID: 6475163966459031639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_35
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 714
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f2baeba3842d260800000000000000
+      internalID: 7120833377970368336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_36
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 726
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a2ad4d5f8ed8eb0800000000000000
+      internalID: -4715857092251342280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_37
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 718
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9b6f5daf1d7a650800000000000000
+      internalID: 6244190283634227663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_38
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 759
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94798a5433e590870800000000000000
+      internalID: 8649548133646767945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_39
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 765
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3eb6b79f8fb790f0800000000000000
+      internalID: -1110208159676973510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_40
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 708
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9768560568df600b0800000000000000
+      internalID: -5762639919857695111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_41
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 740
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6593646e548b860800000000000000
+      internalID: 7545858030982223567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_42
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 725
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26568fc129dd3daa0800000000000000
+      internalID: -6137318247554849438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_43
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 699
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ac3baf286b4c6d0800000000000000
+      internalID: -2971049180489594214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_44
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 746
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358c3dcc4654045e0800000000000000
+      internalID: -1927464341279094701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_45
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 762
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e55ff8c0e69d040800000000000000
+      internalID: 4672887088607485576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_46
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 739
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5832d2a96bdc04fa0800000000000000
+      internalID: -5818424534408289403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_47
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 759
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64628fe489bf3f850800000000000000
+      internalID: 6409743326256834118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_48
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 726
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b03816fa73bba7f0800000000000000
+      internalID: -600188784627666759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_49
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 699
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13334eef1eaedda50800000000000000
+      internalID: 6547647689631478577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_50
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 734
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b280217735e63b0800000000000000
+      internalID: -5517380722613539961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_51
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 741
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd3c5f9d7431fa80800000000000000
+      internalID: -8434902912939049526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_52
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 714
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d171614e0c3dab550800000000000000
+      internalID: 6177482664305891101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_53
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 773
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd07e077585629f0800000000000000
+      internalID: -493609976570900993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_54
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 761
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cbbfa5ed4349b90800000000000000
+      internalID: -7236100571663713267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_55
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 732
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1437e1fdcd4fc0d60800000000000000
+      internalID: 7857924679327970113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_56
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 735
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f4fdc41d0dafb40800000000000000
+      internalID: 5474917894378704650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_57
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 761
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361fa866fe72c7320800000000000000
+      internalID: 2556962597610647907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_58
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 719
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96034f3778cd65f80800000000000000
+      internalID: -8118058803964661655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_59
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 694
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a66c66c0eb860200800000000000000
+      internalID: 145957835454047909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_60
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 751
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bfd2140a364dff0800000000000000
+      internalID: -12275359035819228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_61
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 740
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d13fe77077123aa0800000000000000
+      internalID: -6182853566610329130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_62
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 770
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15300687ea1ab96f0800000000000000
+      internalID: -676769548273188015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_63
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 726
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f088e7f307322320800000000000000
+      internalID: 2531646430719279349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_64
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 729
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb0edc7308274090800000000000000
+      internalID: -8050421813456532536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_65
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 753
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb6c6c53f3dfb230800000000000000
+      internalID: 3656874464629255143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_66
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 713
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18facd8102ff9be70800000000000000
+      internalID: 9131610232791543681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_67
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 724
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62b2bd235aca6ab0800000000000000
+      internalID: -5013972776525843861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_68
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 700
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694a8c50571704bf0800000000000000
+      internalID: -342148824258009962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_69
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 763
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fd9af8ef3fb9b00800000000000000
+      internalID: 836530430464876419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_70
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 766
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116d8a188a7eeb790800000000000000
+      internalID: -7512312417491560943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_71
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 746
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d5df6878cef51f0800000000000000
+      internalID: -1053863720951915173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_72
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 716
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3f8a7c67938ffc0800000000000000
+      internalID: -3460953131315563574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_73
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 759
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf41296450d42d530800000000000000
+      internalID: 3878246914173572347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_74
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 769
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888630a346f10f090800000000000000
+      internalID: -8002862022506878840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_75
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 719
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a084fe1ccc24260800000000000000
+      internalID: 7080446697495071366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_76
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 753
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb26512d1c540830800000000000000
+      internalID: 4036452446213909435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_77
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 731
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ea1619d9ec4cfa0800000000000000
+      internalID: -5781268845492588981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_78
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 725
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b5152d6428cf8d0800000000000000
+      internalID: -2811228826698163414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_79
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 718
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb85b880f296cae50800000000000000
+      internalID: 6821943186287188155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_80
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 717
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcf7204be6e12650800000000000000
+      internalID: 6206495659561319611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_81
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 754
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74490c4ca67cb19f0800000000000000
+      internalID: -496584072512891833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_82
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 732
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e74a8db26169d8d0800000000000000
+      internalID: -2821116614856259607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_83
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 712
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4503709459b320e0800000000000000
+      internalID: -2295787612176972469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_84
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba744bf78ffe83b0800000000000000
+      internalID: -5508184334726301007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_85
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 720
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be4a1769513fda40800000000000000
+      internalID: 5395085138664771249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_86
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 767
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e6ae4f01b7be4c0800000000000000
+      internalID: -4257173709989974518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_87
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 674
+        width: 34
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489bd2e0a84e39b30800000000000000
+      internalID: 4293026151408712068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_88
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 759
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83202ab7e8040e760800000000000000
+      internalID: 7485053561393513016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_89
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 767
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96286770ed747a8f0800000000000000
+      internalID: -529375412259224983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_90
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 703
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2cd1ecb41f65eb0800000000000000
+      internalID: -4731329050623229256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_91
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 691
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce48520fcb7433e60800000000000000
+      internalID: 7940769444792730860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_92
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 703
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db43bd2a2299dfa0800000000000000
+      internalID: -5775424337272943656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_93
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 699
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbff3aeac3709610800000000000000
+      internalID: 1625926780831398908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_94
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a40b9cacbc02f40800000000000000
+      internalID: 5701781200078654027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_95
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 685
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ef579650df082e0800000000000000
+      internalID: -2125420824432869808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_96
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 708
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8007ef247b6fa6360800000000000000
+      internalID: 7163809424249614344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_97
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 699
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b407242cb98edd830800000000000000
+      internalID: 4097686991653728331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_98
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 693
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e88cc38c04642750800000000000000
+      internalID: 6279253785374918889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_99
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 691
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66a33e237056b0d0800000000000000
+      internalID: -3407447612432603538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_100
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 691
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a79f22ddb80941c0800000000000000
+      internalID: -4519071139721406559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_101
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 639
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ff10742adb9f610800000000000000
+      internalID: 1655562842709032829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_102
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 699
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5a4be776d4af7f0800000000000000
+      internalID: -578064495260949081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_103
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 686
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92084fbcf6fbaab80800000000000000
+      internalID: -8382677269512683479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_104
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 683
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363e179824160a8a0800000000000000
+      internalID: -6295925340662275229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_105
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 701
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29cd79af253ffde0800000000000000
+      internalID: -1297259688836085461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_106
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 696
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73476cc2c5535a140800000000000000
+      internalID: 4730245653627040823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_107
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 698
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c124e76bba752570800000000000000
+      internalID: 8441288021896339904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_108
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 691
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ac872dc2d564280800000000000000
+      internalID: -9059451153318098389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_109
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 693
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0b48a4edee63c10800000000000000
+      internalID: 2033074920304718016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_110
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 692
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec1c80b7a5f57620800000000000000
+      internalID: 2771391246286724325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_111
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 690
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560f111c5a6ac1500800000000000000
+      internalID: 368352500376531045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_112
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 679
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a231b81504e73b830800000000000000
+      internalID: 4085748101666247466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 678
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d6e096217136820800000000000000
+      internalID: 2910195152050875763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_114
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 684
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16db369da91dfed60800000000000000
+      internalID: 7921780732570352993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_115
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 674
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2288110af03ed90800000000000000
+      internalID: -7069789809878228313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_116
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 668
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a81b938d1303d50800000000000000
+      internalID: 6714921849160043073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_117
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 685
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0168a3df35d6fc0800000000000000
+      internalID: -3500048988323311452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_118
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 677
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d91dbd6eaf59aa0800000000000000
+      internalID: -6154737446294545130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_119
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 644
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9295e2708945d7da0800000000000000
+      internalID: -5945502921126946519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_120
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 679
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21cf4728a2d33630800000000000000
+      internalID: 3905696921516228911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_121
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 680
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5050963c3591a000800000000000000
+      internalID: 45481557096419422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_122
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 667
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9506c6bdeabf42770800000000000000
+      internalID: 8585263518099202137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_123
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 673
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae98f7ec3c5a2a170800000000000000
+      internalID: 8188289332914653674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_124
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 681
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb11cb7c41a580c0800000000000000
+      internalID: -4574072496659031098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_125
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 686
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407b9053ce4b210e0800000000000000
+      internalID: -2300577533037791484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_126
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 668
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716326c7482ad7aa0800000000000000
+      internalID: -6161590025266776553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_127
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 666
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6630b40c8d8e09360800000000000000
+      internalID: 7174490224037921638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_128
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 670
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa5012d9ecee9600800000000000000
+      internalID: 477079099543673597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_129
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 674
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c976c15c487da8830800000000000000
+      internalID: 4074305778152662940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_130
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 678
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9142097087c5ef0800000000000000
+      internalID: -118087516340086304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_131
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 618
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf659b66adb8c8a0800000000000000
+      internalID: -6284564757528350798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_132
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 673
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3fb8276420e6d80800000000000000
+      internalID: -8255658565330799687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_133
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 668
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f3ddbb5edf78940800000000000000
+      internalID: 5298482649765855082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_134
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 678
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616cc9a1e4e255ad0800000000000000
+      internalID: -2714212287432047082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_135
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 670
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4aa4dfe575da26c0800000000000000
+      internalID: -4167283802666390963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_136
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 671
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef394b7ae8c38120800000000000000
+      internalID: 2414994734617018345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_137
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 665
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a753c460eb24840800000000000000
+      internalID: 5206933053451369033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_138
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 668
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049332d8a6b24cff0800000000000000
+      internalID: -16840761968215744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_139
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 665
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dd62184465ebad0800000000000000
+      internalID: -2684613475641664201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_140
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 611
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d452b12b8fd0e0240800000000000000
+      internalID: 4759757217968366925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_141
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 665
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd7e07192367ccf0800000000000000
+      internalID: -232107827654656573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_142
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 652
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced1b97b7f32588b0800000000000000
+      internalID: -5150671051984003604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_143
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 648
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187359ad8d84fad30800000000000000
+      internalID: 4444851453455316865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_144
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 651
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d087c127e70e1400800000000000000
+      internalID: 296683314738594001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_145
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 655
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5d3a1231fb16570800000000000000
+      internalID: 8458251664068171185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_146
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 661
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a7ef4e50f7b94b0800000000000000
+      internalID: -5432608862198924724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_147
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 662
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c473c736efb68a0800000000000000
+      internalID: -6310670749590401948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_148
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 649
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798f590ef2f15f600800000000000000
+      internalID: 501341224013527191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_149
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 662
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82723ce7dfd0ee750800000000000000
+      internalID: 6336017108161472296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 631
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fdc7da70fb33540800000000000000
+      internalID: 4986539252125589331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_151
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 651
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f24869c560ebb160800000000000000
+      internalID: 7042469170099274480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_152
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 644
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2d75772b50166c0800000000000000
+      internalID: -4152031117394324755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_153
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 645
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46034ddda771a4530800000000000000
+      internalID: 3839907448761888868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_154
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 553
+        width: 47
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67515c9ac618d0560800000000000000
+      internalID: 7281618476232676726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_155
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 638
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4003d0f1f53154e0800000000000000
+      internalID: -1994753846704668594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_156
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 646
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a77049601d56a10800000000000000
+      internalID: 1902156243817429564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_157
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 627
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d767bbf5a2c35bc0800000000000000
+      internalID: -3795476042794702891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_158
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 631
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd88b962d8eca0ee0800000000000000
+      internalID: -1293994837282158369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_159
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 642
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbe7e92748162680800000000000000
+      internalID: -8780303729587393607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_160
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 636
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b111e5b96b9153b0800000000000000
+      internalID: -5525464389481590348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_161
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 634
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25a48d5a0abaad80800000000000000
+      internalID: -8238568014639487697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_162
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 634
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6a35afb0bad6390800000000000000
+      internalID: -7823408909739907340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_163
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 631
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a223f7ee2bad44eb0800000000000000
+      internalID: -4736420446046571990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_164
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 618
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6d9102b538b5af0800000000000000
+      internalID: -406586913943071044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_165
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 607
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e2b9f74e9bfb4f0800000000000000
+      internalID: -810725016858841516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_166
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 619
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419790bcb1288f200800000000000000
+      internalID: 214064038182222100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_167
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 632
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b46c7af4bb29980800000000000000
+      internalID: -8533552393122067621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_168
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 632
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f5cf4255a9b4fc0800000000000000
+      internalID: -3509541794121752686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_169
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 624
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1c698ede63d56d0800000000000000
+      internalID: -3000181381321539148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_170
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 630
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7535fb5edc7ed810800000000000000
+      internalID: 1792006996207416703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_171
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 618
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c11314f5db3008c0800000000000000
+      internalID: -4035159476015001147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_172
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 625
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12171e7fc87936310800000000000000
+      internalID: 1397126941124948257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_173
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 628
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4567f93406fffece0800000000000000
+      internalID: -1373598572408244652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_174
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 604
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa4dc09eeb10e7e0800000000000000
+      internalID: -1738358744719471960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_175
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 618
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bdaded60496b430800000000000000
+      internalID: 3798386092963191660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_176
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 613
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03133fdbde5628ea0800000000000000
+      internalID: -5872018892369219280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 613
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4790f0bf6f1e306d0800000000000000
+      internalID: -3025326073772570252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_178
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 617
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a9ffc5187fc85d0800000000000000
+      internalID: -3058797911908312441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_179
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 602
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf895ee235db43bf0800000000000000
+      internalID: -345443106433951492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_180
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 611
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3458755c6b4d8ee0800000000000000
+      internalID: -1257265792303999942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_181
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 600
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12946db5b4a8f7ec0800000000000000
+      internalID: -3566980323586193119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_182
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 592
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5579e63791d005c00800000000000000
+      internalID: 887223529553958741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_183
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 610
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6153ba44f0c8814a0800000000000000
+      internalID: -6622389254843845354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_184
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 611
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254e442ca03b5a330800000000000000
+      internalID: 3721577525881922642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_185
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 593
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc40d183df64132d0800000000000000
+      internalID: -3300778998503766837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_186
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 594
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532bfed9d71c5e090800000000000000
+      internalID: -8005780017316384203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_187
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 557
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b8ea11063d1d0f0800000000000000
+      internalID: -1093860824907347151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_188
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 597
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdf6e3060cfcc2c0800000000000000
+      internalID: -4409872832337085007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_189
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 601
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fba8e908b67b6e50800000000000000
+      internalID: 6803662194885569527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_190
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 599
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb727227eaad9ceb0800000000000000
+      internalID: -4698984293410068548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_191
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 582
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6189fc330205c9320800000000000000
+      internalID: 2566013986932758550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_192
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 601
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11623c7b0a0c8810800000000000000
+      internalID: 1768799798094356767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_193
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 606
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0829081d83ed80c70800000000000000
+      internalID: 8937637796131148416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_194
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 568
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85114c30359fba90800000000000000
+      internalID: -7295948836915047030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_195
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 593
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5deab89e652e59f0800000000000000
+      internalID: -477903353515676325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_196
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 587
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a97adaa390b96aa0800000000000000
+      internalID: -6167204066434057821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_197
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 574
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712e18ca5097bae20800000000000000
+      internalID: 3362914612038197783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_198
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 581
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d36065f101c47950800000000000000
+      internalID: 6445989180829885396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_199
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 569
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c473f01f3650d5730800000000000000
+      internalID: 3989350771724334924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_200
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 574
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542af0be2cd01fad0800000000000000
+      internalID: -2670337973235506619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_201
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 581
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784d75710962a7530800000000000000
+      internalID: 3853434831477658759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_202
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 570
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd74ed3bcd2096c0800000000000000
+      internalID: -4138757706613490187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_203
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 578
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b47ee00cf0778870800000000000000
+      internalID: 8685034634056987824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_204
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 576
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f2f4d416bb75a00800000000000000
+      internalID: 745270289936363327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_205
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 566
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c18872ba9a95a5d0800000000000000
+      internalID: -3051863183263759927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_206
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 562
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d630dd0cc87e320800000000000000
+      internalID: 2587191270917238119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_207
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 558
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad86d179ef6fc1e90800000000000000
+      internalID: -7053491343051626278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_208
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 567
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15e76ef2d61c6a70800000000000000
+      internalID: 8821450865579123998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_209
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 552
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e27b986b3b236280800000000000000
+      internalID: -9051343291926482201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_210
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 565
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e011d6ee0abb4e0800000000000000
+      internalID: -1964799866524594534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_211
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 536
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acf17fad88406230800000000000000
+      internalID: 3629981073031691429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_212
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 561
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd44894655352a890800000000000000
+      internalID: -7448299207492352805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_213
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 557
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1634c81cc0a5d8ac0800000000000000
+      internalID: -3851323095498603679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_214
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 546
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2a4488bd51bc330800000000000000
+      internalID: 3732100748834808548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_215
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 551
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606b8ae0907e41020800000000000000
+      internalID: 2311726534834566662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_216
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 533
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1530d9aa2e12a1220800000000000000
+      internalID: 2457313804092769105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_217
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 537
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33884bf17bc5fcde0800000000000000
+      internalID: -1310727024960829389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_218
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 546
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74096815c8c7b570800000000000000
+      internalID: 8482469172019266685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_219
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 557
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe244d1e3a1e1d790800000000000000
+      internalID: -7506971009865202961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_220
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 528
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce7ed0e9b8f36500800000000000000
+      internalID: 388427470109310657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_221
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 494
+        width: 18
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55317882089f2e570800000000000000
+      internalID: 8494626176005247829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_222
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 525
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c2a9c0e383a0840800000000000000
+      internalID: 5191023359648476297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_223
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 543
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d180b494159949b40800000000000000
+      internalID: 5446146423798827037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_224
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 540
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168ef58d3a4a1cdc0800000000000000
+      internalID: -3620431601812379551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_225
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 535
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62be56144914535d0800000000000000
+      internalID: -3083486264857072858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_226
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 533
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cac5649895f0680800000000000000
+      internalID: -8786705901850678130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_227
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 539
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4656a52327598d70800000000000000
+      internalID: 9045857135017481807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_228
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 503
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21becc69e26a25970800000000000000
+      internalID: 8742232545708272402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_229
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 498
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005b113c2685e81a0800000000000000
+      internalID: -6805404805707483904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_230
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 514
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2044383fddbc3e00800000000000000
+      internalID: 1025903581551935532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_231
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 523
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eada8fc59354e0c40800000000000000
+      internalID: 5480393909231725998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_232
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 510
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749e2f9a1f9d407c0800000000000000
+      internalID: -4105917328293435065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_233
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 511
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fc896bd907f5260800000000000000
+      internalID: 7088508161180094216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_234
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 527
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d71898e144480350800000000000000
+      internalID: 5983107154827548629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_235
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 528
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a8b13084602e390800000000000000
+      internalID: -7790657499037988198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_236
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 523
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf2d51363c347bd0800000000000000
+      internalID: -2633413678650806358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_237
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 516
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa74a29c84c0df790800000000000000
+      internalID: -7494820698122467414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_238
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 452
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffb412cdb78daf20800000000000000
+      internalID: 3435551339828264951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_239
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 521
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d22fec8a5d0c53c0800000000000000
+      internalID: -4369602855893523753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_240
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 496
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05247ee16b241e60800000000000000
+      internalID: 7932012543318697231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_241
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 507
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a789fbaed2bf7e50800000000000000
+      internalID: 6809357831045220263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_242
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 506
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a0f0c034c9f1e60800000000000000
+      internalID: 7935232880229157467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_243
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 513
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bcb830951d50ad0800000000000000
+      internalID: -2736551018315920568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_244
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 471
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a955efde93a416c0800000000000000
+      internalID: -4173531051909097054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_245
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 476
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9742c6977cf20d90800000000000000
+      internalID: -7132861269240821857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_246
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 489
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debf904205b91b250800000000000000
+      internalID: 5958714550492199917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_247
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 489
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24261352a341b590800000000000000
+      internalID: -7660267126722780116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_248
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 486
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42517ae93dcfccf0800000000000000
+      internalID: -229739407342480819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_249
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 484
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26c60823bf840030800000000000000
+      internalID: 3460048413360834092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_250
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 498
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfca26a8f34f9760800000000000000
+      internalID: 7466761442422345665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_251
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 399
+        width: 36
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd017045fecf05dc0800000000000000
+      internalID: -3652141192960339748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_252
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 464
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2047625a1563bc90800000000000000
+      internalID: -7155264219235532754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_253
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 458
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead7ca91957cd1e60800000000000000
+      internalID: 7934717303993433518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_254
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 472
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c1406e44c382540800000000000000
+      internalID: 4983299254299925601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_255
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 484
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4421418e435e56c0800000000000000
+      internalID: -4152790209747934131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_256
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 475
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca4e1475dfb27660800000000000000
+      internalID: 7382173662710745800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_257
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 464
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723800f856f9e0470800000000000000
+      internalID: 8362796816613278503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_258
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 474
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810814b3a0ffc99c0800000000000000
+      internalID: -3918977156310269928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_259
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 467
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b988ddc34187530800000000000000
+      internalID: 3852851732862769935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_260
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 471
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92779fe32ad83d20800000000000000
+      internalID: 3258594178280944287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_261
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 470
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6008e7cadad656a0800000000000000
+      internalID: -6460735982224801685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_262
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 426
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faccdd4db10a4d10800000000000000
+      internalID: 2110501287943260912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_263
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 461
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e7f514deb2ef2b0800000000000000
+      internalID: -5548949392869851511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_264
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 450
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba50bef8d5bc9a90800000000000000
+      internalID: -7305764551911253322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_265
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 456
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b979a6dbc949f9aa0800000000000000
+      internalID: -6152035165051119717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_266
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 446
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6685abb8f14e3cc10800000000000000
+      internalID: 2072751077659924582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_267
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d689643efe8bee0800000000000000
+      internalID: -1244981537546932917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_268
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 451
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7cb598e7f98fcf0800000000000000
+      internalID: -218249216108279870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_269
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 450
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb9735dc8da08280800000000000000
+      internalID: -9043037231375737908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_270
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 433
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0d970298fca7fa0800000000000000
+      internalID: -5802096982051139376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_271
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 444
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa0d81dfe79613b0800000000000000
+      internalID: -5542075235164157268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_272
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec4a3d655bdb9f30800000000000000
+      internalID: 4583498205730852066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_273
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 441
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad34675f21b9e0730800000000000000
+      internalID: 3967278827489870810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_274
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 432
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a8d446fae8381d0800000000000000
+      internalID: -3349676813880292728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_275
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 439
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7408e48b6622a27b0800000000000000
+      internalID: -5248344591172730809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_276
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 431
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319ffe3547bd60860800000000000000
+      internalID: 7495919922475694355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_277
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 434
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4263a9b6e98149e80800000000000000
+      internalID: -8172880355081439708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_278
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 433
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa32351cbdfd0070800000000000000
+      internalID: 8074388691196459691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_279
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 415
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765bbd7b69356cb10800000000000000
+      internalID: 2001378991207593319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_280
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 426
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1163de72afa06b6e0800000000000000
+      internalID: -1822256929696827887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_281
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 433
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a8007c117d045f0800000000000000
+      internalID: -774382664554608075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_282
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 407
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b328bf8fcbae327b0800000000000000
+      internalID: -5250094643231882693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_283
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 423
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dfc19eff7162750800000000000000
+      internalID: 6279733118309825946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_284
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9de92242dd087ac0800000000000000
+      internalID: -3857317884138492513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_285
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 396
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a543fcf926c8990800000000000000
+      internalID: -7382417250651448769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodyBorder_286
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 421
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e9d97a8c3df8f70800000000000000
+      internalID: 9191798223245516331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bloodyBorder_0: 3895385812055732859
+      bloodyBorder_1: 8691527273093038828
+      bloodyBorder_10: -2973135286928566310
+      bloodyBorder_100: -4519071139721406559
+      bloodyBorder_101: 1655562842709032829
+      bloodyBorder_102: -578064495260949081
+      bloodyBorder_103: -8382677269512683479
+      bloodyBorder_104: -6295925340662275229
+      bloodyBorder_105: -1297259688836085461
+      bloodyBorder_106: 4730245653627040823
+      bloodyBorder_107: 8441288021896339904
+      bloodyBorder_108: -9059451153318098389
+      bloodyBorder_109: 2033074920304718016
+      bloodyBorder_11: 6193163046476132124
+      bloodyBorder_110: 2771391246286724325
+      bloodyBorder_111: 368352500376531045
+      bloodyBorder_112: 4085748101666247466
+      bloodyBorder_113: 2910195152050875763
+      bloodyBorder_114: 7921780732570352993
+      bloodyBorder_115: -7069789809878228313
+      bloodyBorder_116: 6714921849160043073
+      bloodyBorder_117: -3500048988323311452
+      bloodyBorder_118: -6154737446294545130
+      bloodyBorder_119: -5945502921126946519
+      bloodyBorder_12: -7914654946059763390
+      bloodyBorder_120: 3905696921516228911
+      bloodyBorder_121: 45481557096419422
+      bloodyBorder_122: 8585263518099202137
+      bloodyBorder_123: 8188289332914653674
+      bloodyBorder_124: -4574072496659031098
+      bloodyBorder_125: -2300577533037791484
+      bloodyBorder_126: -6161590025266776553
+      bloodyBorder_127: 7174490224037921638
+      bloodyBorder_128: 477079099543673597
+      bloodyBorder_129: 4074305778152662940
+      bloodyBorder_13: -4759264069301585939
+      bloodyBorder_130: -118087516340086304
+      bloodyBorder_131: -6284564757528350798
+      bloodyBorder_132: -8255658565330799687
+      bloodyBorder_133: 5298482649765855082
+      bloodyBorder_134: -2714212287432047082
+      bloodyBorder_135: -4167283802666390963
+      bloodyBorder_136: 2414994734617018345
+      bloodyBorder_137: 5206933053451369033
+      bloodyBorder_138: -16840761968215744
+      bloodyBorder_139: -2684613475641664201
+      bloodyBorder_14: 3722683293922343661
+      bloodyBorder_140: 4759757217968366925
+      bloodyBorder_141: -232107827654656573
+      bloodyBorder_142: -5150671051984003604
+      bloodyBorder_143: 4444851453455316865
+      bloodyBorder_144: 296683314738594001
+      bloodyBorder_145: 8458251664068171185
+      bloodyBorder_146: -5432608862198924724
+      bloodyBorder_147: -6310670749590401948
+      bloodyBorder_148: 501341224013527191
+      bloodyBorder_149: 6336017108161472296
+      bloodyBorder_15: 326499389754344540
+      bloodyBorder_150: 4986539252125589331
+      bloodyBorder_151: 7042469170099274480
+      bloodyBorder_152: -4152031117394324755
+      bloodyBorder_153: 3839907448761888868
+      bloodyBorder_154: 7281618476232676726
+      bloodyBorder_155: -1994753846704668594
+      bloodyBorder_156: 1902156243817429564
+      bloodyBorder_157: -3795476042794702891
+      bloodyBorder_158: -1293994837282158369
+      bloodyBorder_159: -8780303729587393607
+      bloodyBorder_16: 2411797052775819695
+      bloodyBorder_160: -5525464389481590348
+      bloodyBorder_161: -8238568014639487697
+      bloodyBorder_162: -7823408909739907340
+      bloodyBorder_163: -4736420446046571990
+      bloodyBorder_164: -406586913943071044
+      bloodyBorder_165: -810725016858841516
+      bloodyBorder_166: 214064038182222100
+      bloodyBorder_167: -8533552393122067621
+      bloodyBorder_168: -3509541794121752686
+      bloodyBorder_169: -3000181381321539148
+      bloodyBorder_17: 5296874558301884539
+      bloodyBorder_170: 1792006996207416703
+      bloodyBorder_171: -4035159476015001147
+      bloodyBorder_172: 1397126941124948257
+      bloodyBorder_173: -1373598572408244652
+      bloodyBorder_174: -1738358744719471960
+      bloodyBorder_175: 3798386092963191660
+      bloodyBorder_176: -5872018892369219280
+      bloodyBorder_177: -3025326073772570252
+      bloodyBorder_178: -3058797911908312441
+      bloodyBorder_179: -345443106433951492
+      bloodyBorder_18: 5557763182185359931
+      bloodyBorder_180: -1257265792303999942
+      bloodyBorder_181: -3566980323586193119
+      bloodyBorder_182: 887223529553958741
+      bloodyBorder_183: -6622389254843845354
+      bloodyBorder_184: 3721577525881922642
+      bloodyBorder_185: -3300778998503766837
+      bloodyBorder_186: -8005780017316384203
+      bloodyBorder_187: -1093860824907347151
+      bloodyBorder_188: -4409872832337085007
+      bloodyBorder_189: 6803662194885569527
+      bloodyBorder_19: 4134984246421555442
+      bloodyBorder_190: -4698984293410068548
+      bloodyBorder_191: 2566013986932758550
+      bloodyBorder_192: 1768799798094356767
+      bloodyBorder_193: 8937637796131148416
+      bloodyBorder_194: -7295948836915047030
+      bloodyBorder_195: -477903353515676325
+      bloodyBorder_196: -6167204066434057821
+      bloodyBorder_197: 3362914612038197783
+      bloodyBorder_198: 6445989180829885396
+      bloodyBorder_199: 3989350771724334924
+      bloodyBorder_2: 1844502130762921806
+      bloodyBorder_20: -1214566476830801905
+      bloodyBorder_200: -2670337973235506619
+      bloodyBorder_201: 3853434831477658759
+      bloodyBorder_202: -4138757706613490187
+      bloodyBorder_203: 8685034634056987824
+      bloodyBorder_204: 745270289936363327
+      bloodyBorder_205: -3051863183263759927
+      bloodyBorder_206: 2587191270917238119
+      bloodyBorder_207: -7053491343051626278
+      bloodyBorder_208: 8821450865579123998
+      bloodyBorder_209: -9051343291926482201
+      bloodyBorder_21: 1068836629995803619
+      bloodyBorder_210: -1964799866524594534
+      bloodyBorder_211: 3629981073031691429
+      bloodyBorder_212: -7448299207492352805
+      bloodyBorder_213: -3851323095498603679
+      bloodyBorder_214: 3732100748834808548
+      bloodyBorder_215: 2311726534834566662
+      bloodyBorder_216: 2457313804092769105
+      bloodyBorder_217: -1310727024960829389
+      bloodyBorder_218: 8482469172019266685
+      bloodyBorder_219: -7506971009865202961
+      bloodyBorder_22: 2490520182913457924
+      bloodyBorder_220: 388427470109310657
+      bloodyBorder_221: 8494626176005247829
+      bloodyBorder_222: 5191023359648476297
+      bloodyBorder_223: 5446146423798827037
+      bloodyBorder_224: -3620431601812379551
+      bloodyBorder_225: -3083486264857072858
+      bloodyBorder_226: -8786705901850678130
+      bloodyBorder_227: 9045857135017481807
+      bloodyBorder_228: 8742232545708272402
+      bloodyBorder_229: -6805404805707483904
+      bloodyBorder_23: 4273768895469708095
+      bloodyBorder_230: 1025903581551935532
+      bloodyBorder_231: 5480393909231725998
+      bloodyBorder_232: -4105917328293435065
+      bloodyBorder_233: 7088508161180094216
+      bloodyBorder_234: 5983107154827548629
+      bloodyBorder_235: -7790657499037988198
+      bloodyBorder_236: -2633413678650806358
+      bloodyBorder_237: -7494820698122467414
+      bloodyBorder_238: 3435551339828264951
+      bloodyBorder_239: -4369602855893523753
+      bloodyBorder_24: 7934328293277837287
+      bloodyBorder_240: 7932012543318697231
+      bloodyBorder_241: 6809357831045220263
+      bloodyBorder_242: 7935232880229157467
+      bloodyBorder_243: -2736551018315920568
+      bloodyBorder_244: -4173531051909097054
+      bloodyBorder_245: -7132861269240821857
+      bloodyBorder_246: 5958714550492199917
+      bloodyBorder_247: -7660267126722780116
+      bloodyBorder_248: -229739407342480819
+      bloodyBorder_249: 3460048413360834092
+      bloodyBorder_25: 4572543367748654014
+      bloodyBorder_250: 7466761442422345665
+      bloodyBorder_251: -3652141192960339748
+      bloodyBorder_252: -7155264219235532754
+      bloodyBorder_253: 7934717303993433518
+      bloodyBorder_254: 4983299254299925601
+      bloodyBorder_255: -4152790209747934131
+      bloodyBorder_256: 7382173662710745800
+      bloodyBorder_257: 8362796816613278503
+      bloodyBorder_258: -3918977156310269928
+      bloodyBorder_259: 3852851732862769935
+      bloodyBorder_26: -1932954189355322544
+      bloodyBorder_260: 3258594178280944287
+      bloodyBorder_261: -6460735982224801685
+      bloodyBorder_262: 2110501287943260912
+      bloodyBorder_263: -5548949392869851511
+      bloodyBorder_264: -7305764551911253322
+      bloodyBorder_265: -6152035165051119717
+      bloodyBorder_266: 2072751077659924582
+      bloodyBorder_267: -1244981537546932917
+      bloodyBorder_268: -218249216108279870
+      bloodyBorder_269: -9043037231375737908
+      bloodyBorder_27: -6043666508900330724
+      bloodyBorder_270: -5802096982051139376
+      bloodyBorder_271: -5542075235164157268
+      bloodyBorder_272: 4583498205730852066
+      bloodyBorder_273: 3967278827489870810
+      bloodyBorder_274: -3349676813880292728
+      bloodyBorder_275: -5248344591172730809
+      bloodyBorder_276: 7495919922475694355
+      bloodyBorder_277: -8172880355081439708
+      bloodyBorder_278: 8074388691196459691
+      bloodyBorder_279: 2001378991207593319
+      bloodyBorder_28: 2070839641980765220
+      bloodyBorder_280: -1822256929696827887
+      bloodyBorder_281: -774382664554608075
+      bloodyBorder_282: -5250094643231882693
+      bloodyBorder_283: 6279733118309825946
+      bloodyBorder_284: -3857317884138492513
+      bloodyBorder_285: -7382417250651448769
+      bloodyBorder_286: 9191798223245516331
+      bloodyBorder_29: -5589675705230506666
+      bloodyBorder_3: 195123537109705253
+      bloodyBorder_30: -6772222164669876296
+      bloodyBorder_31: 3861924922132264327
+      bloodyBorder_32: 4649477998834170072
+      bloodyBorder_33: -5908700280396386640
+      bloodyBorder_34: 6475163966459031639
+      bloodyBorder_35: 7120833377970368336
+      bloodyBorder_36: -4715857092251342280
+      bloodyBorder_37: 6244190283634227663
+      bloodyBorder_38: 8649548133646767945
+      bloodyBorder_39: -1110208159676973510
+      bloodyBorder_4: 466581816067704234
+      bloodyBorder_40: -5762639919857695111
+      bloodyBorder_41: 7545858030982223567
+      bloodyBorder_42: -6137318247554849438
+      bloodyBorder_43: -2971049180489594214
+      bloodyBorder_44: -1927464341279094701
+      bloodyBorder_45: 4672887088607485576
+      bloodyBorder_46: -5818424534408289403
+      bloodyBorder_47: 6409743326256834118
+      bloodyBorder_48: -600188784627666759
+      bloodyBorder_49: 6547647689631478577
+      bloodyBorder_5: 8772553902005157971
+      bloodyBorder_50: -5517380722613539961
+      bloodyBorder_51: -8434902912939049526
+      bloodyBorder_52: 6177482664305891101
+      bloodyBorder_53: -493609976570900993
+      bloodyBorder_54: -7236100571663713267
+      bloodyBorder_55: 7857924679327970113
+      bloodyBorder_56: 5474917894378704650
+      bloodyBorder_57: 2556962597610647907
+      bloodyBorder_58: -8118058803964661655
+      bloodyBorder_59: 145957835454047909
+      bloodyBorder_6: 2398827040320842869
+      bloodyBorder_60: -12275359035819228
+      bloodyBorder_61: -6182853566610329130
+      bloodyBorder_62: -676769548273188015
+      bloodyBorder_63: 2531646430719279349
+      bloodyBorder_64: -8050421813456532536
+      bloodyBorder_65: 3656874464629255143
+      bloodyBorder_66: 9131610232791543681
+      bloodyBorder_67: -5013972776525843861
+      bloodyBorder_68: -342148824258009962
+      bloodyBorder_69: 836530430464876419
+      bloodyBorder_7: -8658529648798384807
+      bloodyBorder_70: -7512312417491560943
+      bloodyBorder_71: -1053863720951915173
+      bloodyBorder_72: -3460953131315563574
+      bloodyBorder_73: 3878246914173572347
+      bloodyBorder_74: -8002862022506878840
+      bloodyBorder_75: 7080446697495071366
+      bloodyBorder_76: 4036452446213909435
+      bloodyBorder_77: -5781268845492588981
+      bloodyBorder_78: -2811228826698163414
+      bloodyBorder_79: 6821943186287188155
+      bloodyBorder_8: -8702192440663634092
+      bloodyBorder_80: 6206495659561319611
+      bloodyBorder_81: -496584072512891833
+      bloodyBorder_82: -2821116614856259607
+      bloodyBorder_83: -2295787612176972469
+      bloodyBorder_84: -5508184334726301007
+      bloodyBorder_85: 5395085138664771249
+      bloodyBorder_86: -4257173709989974518
+      bloodyBorder_87: 4293026151408712068
+      bloodyBorder_88: 7485053561393513016
+      bloodyBorder_89: -529375412259224983
+      bloodyBorder_9: 5837530173142291404
+      bloodyBorder_90: -4731329050623229256
+      bloodyBorder_91: 7940769444792730860
+      bloodyBorder_92: -5775424337272943656
+      bloodyBorder_93: 1625926780831398908
+      bloodyBorder_94: 5701781200078654027
+      bloodyBorder_95: -2125420824432869808
+      bloodyBorder_96: 7163809424249614344
+      bloodyBorder_97: 4097686991653728331
+      bloodyBorder_98: 6279253785374918889
+      bloodyBorder_99: -3407447612432603538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
