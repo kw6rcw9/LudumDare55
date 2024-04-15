@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using Core.RoomSystem;
 using UISystem;
 using UnityEngine;
@@ -9,7 +10,6 @@ using Zenject;
 
 public class HallInputListener : MonoBehaviour
 {
-   [SerializeField] private GameObject hall; 
    private PlayerInput _inputSystem;
    private Menu _menu;
    private GeneratorController _generatorController;
@@ -20,33 +20,35 @@ public class HallInputListener : MonoBehaviour
       _inputSystem = inputSystem;
       _menu = menu;
       _generatorController = generatorController;
-     _inputSystem.Enable();
       Debug.Log("constructes");
    }
 
    private void OnEnable()
    {
-      _inputSystem.GamePlay.DoorInteraction.performed += context => ReadDoorInteraction();
-      _inputSystem.GamePlay.Escape.performed += context => ReadEscape();
+      
+      _inputSystem.Enable();
+      Debug.Log("Enabled");
+      _inputSystem.GamePlay.DoorInteraction.performed +=  ReadDoorInteraction;
+      _inputSystem.GamePlay.Escape.performed +=  ReadEscape;
    }
 
    public void OnDisable()
    {
-      _inputSystem.GamePlay.DoorInteraction.performed -= context => ReadDoorInteraction();
+      _inputSystem.GamePlay.DoorInteraction.performed -=  ReadDoorInteraction;
+      _inputSystem.GamePlay.Escape.performed -= ReadEscape;
       _inputSystem.Disable();
    }
 
 
-   private void ReadDoorInteraction()
+   private void ReadDoorInteraction(InputAction.CallbackContext obj)
    {
       Debug.Log("Pressed E");
-      hall.SetActive(false);
       gameObject.SetActive(false);
       _generatorController.GetRoom();
       
    }
 
-   private void ReadEscape()
+   private void ReadEscape(InputAction.CallbackContext obj)
    {
       _menu.ToggleSettings();
    }

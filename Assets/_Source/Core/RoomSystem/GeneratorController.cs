@@ -8,6 +8,8 @@ namespace Core.RoomSystem
     {
         [SerializeField] private List<GameObject> roomPrefabs;
         [SerializeField] private GameObject parent;
+        [field: SerializeField] public GameObject Hall { get; private set; }
+        [field: SerializeField] public int NeededCorrectTasksNum { get; set; }
         private RoomsPool _pool;
     
         [Inject]
@@ -21,7 +23,10 @@ namespace Core.RoomSystem
 
         public void GetRoom()
         {
+            
             _pool.TryGetFromPool(out GameObject room);
+            if(!gameObject.activeSelf)
+                gameObject.SetActive(true);
             Debug.Log(room.activeSelf);
             
         }

@@ -8,12 +8,12 @@ namespace Core.RoomSystem
    
     public class RoomsPool
     {
-        private List<GameObject> _rooms;
+        public List<GameObject> Rooms { get; private set; }
 
-        
+
         public void InitPool(List<GameObject> rooms, GameObject parent)
         {
-            _rooms = new List<GameObject>();
+            Rooms = new List<GameObject>();
             foreach (var room in rooms)
             {
                 var roomInstance = GameObject.Instantiate(room, parent.transform);
@@ -28,13 +28,13 @@ namespace Core.RoomSystem
         {
             Random rnd = new Random();
             roomInstance = null;
-            Debug.Log(_rooms.Count);
-            if (_rooms.Count > 0)
+            Debug.Log(Rooms.Count);
+            if (Rooms.Count > 0)
             {
-                var ind = rnd.Next(0, _rooms.Count);
-                roomInstance = _rooms[ind];
+                var ind = rnd.Next(0, Rooms.Count);
+                roomInstance = Rooms[ind];
                 roomInstance.SetActive(true);
-                _rooms.RemoveAt(ind);
+                Rooms.RemoveAt(ind);
                 return true;
             }
 
@@ -44,7 +44,7 @@ namespace Core.RoomSystem
         public void ReturnToPool(GameObject enemyInstance)
         {
             enemyInstance.SetActive(false);
-            _rooms.Add(enemyInstance);
+            Rooms.Add(enemyInstance);
            
         }
     }

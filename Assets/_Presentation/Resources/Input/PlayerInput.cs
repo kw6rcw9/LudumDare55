@@ -44,6 +44,78 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Police"",
+                    ""type"": ""Button"",
+                    ""id"": ""8bf860c7-980b-40d2-80fa-1df4f408ad77"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Medical"",
+                    ""type"": ""Button"",
+                    ""id"": ""491754ff-b608-4ed5-bb85-711c79ff76ba"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""FireDeparment"",
+                    ""type"": ""Button"",
+                    ""id"": ""e4f263f4-dd77-428c-bf96-7007a156cd9c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""GasService"",
+                    ""type"": ""Button"",
+                    ""id"": ""82821a49-2491-4c76-b92e-a6798a1162fa"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Mortuary"",
+                    ""type"": ""Button"",
+                    ""id"": ""63a4e127-891b-413c-b3eb-6cca3046233b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SanitaryInspection"",
+                    ""type"": ""Button"",
+                    ""id"": ""e93076fb-bfbb-4171-8a15-5b0dcaa36dd3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Roscomnadzor"",
+                    ""type"": ""Button"",
+                    ""id"": ""20564f3a-d084-4067-b112-f0753ff2277b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Thieves"",
+                    ""type"": ""Button"",
+                    ""id"": ""7bce6912-45da-432b-a7c0-d6593d9f9403"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -68,6 +140,94 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""action"": ""Escape"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""49054ade-00ba-4bdc-abae-ce386732a885"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Police"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""021c612e-f983-4e3f-a3c1-579e85d4ffe8"",
+                    ""path"": ""<Keyboard>/2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Medical"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""86bda4a5-66cc-42b5-9ca8-b5d3ecd5acd7"",
+                    ""path"": ""<Keyboard>/3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""FireDeparment"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bb990b97-00f2-4c53-9065-b4079c43ae59"",
+                    ""path"": ""<Keyboard>/4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GasService"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f8c0ee95-a792-4a7c-a9b0-e67bb3b10981"",
+                    ""path"": ""<Keyboard>/5"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Mortuary"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9617417a-784b-48fa-bf8f-3fe7ff86fa7c"",
+                    ""path"": ""<Keyboard>/6"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SanitaryInspection"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d87beccd-16d0-4436-a0c7-e9c7d7480c49"",
+                    ""path"": ""<Keyboard>/7"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Roscomnadzor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5359bb61-6997-4353-b978-659a1322d04c"",
+                    ""path"": ""<Keyboard>/8"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Thieves"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -84,6 +244,14 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         m_GamePlay = asset.FindActionMap("GamePlay", throwIfNotFound: true);
         m_GamePlay_DoorInteraction = m_GamePlay.FindAction("DoorInteraction", throwIfNotFound: true);
         m_GamePlay_Escape = m_GamePlay.FindAction("Escape", throwIfNotFound: true);
+        m_GamePlay_Police = m_GamePlay.FindAction("Police", throwIfNotFound: true);
+        m_GamePlay_Medical = m_GamePlay.FindAction("Medical", throwIfNotFound: true);
+        m_GamePlay_FireDeparment = m_GamePlay.FindAction("FireDeparment", throwIfNotFound: true);
+        m_GamePlay_GasService = m_GamePlay.FindAction("GasService", throwIfNotFound: true);
+        m_GamePlay_Mortuary = m_GamePlay.FindAction("Mortuary", throwIfNotFound: true);
+        m_GamePlay_SanitaryInspection = m_GamePlay.FindAction("SanitaryInspection", throwIfNotFound: true);
+        m_GamePlay_Roscomnadzor = m_GamePlay.FindAction("Roscomnadzor", throwIfNotFound: true);
+        m_GamePlay_Thieves = m_GamePlay.FindAction("Thieves", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -147,12 +315,28 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private List<IGamePlayActions> m_GamePlayActionsCallbackInterfaces = new List<IGamePlayActions>();
     private readonly InputAction m_GamePlay_DoorInteraction;
     private readonly InputAction m_GamePlay_Escape;
+    private readonly InputAction m_GamePlay_Police;
+    private readonly InputAction m_GamePlay_Medical;
+    private readonly InputAction m_GamePlay_FireDeparment;
+    private readonly InputAction m_GamePlay_GasService;
+    private readonly InputAction m_GamePlay_Mortuary;
+    private readonly InputAction m_GamePlay_SanitaryInspection;
+    private readonly InputAction m_GamePlay_Roscomnadzor;
+    private readonly InputAction m_GamePlay_Thieves;
     public struct GamePlayActions
     {
         private @PlayerInput m_Wrapper;
         public GamePlayActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
         public InputAction @DoorInteraction => m_Wrapper.m_GamePlay_DoorInteraction;
         public InputAction @Escape => m_Wrapper.m_GamePlay_Escape;
+        public InputAction @Police => m_Wrapper.m_GamePlay_Police;
+        public InputAction @Medical => m_Wrapper.m_GamePlay_Medical;
+        public InputAction @FireDeparment => m_Wrapper.m_GamePlay_FireDeparment;
+        public InputAction @GasService => m_Wrapper.m_GamePlay_GasService;
+        public InputAction @Mortuary => m_Wrapper.m_GamePlay_Mortuary;
+        public InputAction @SanitaryInspection => m_Wrapper.m_GamePlay_SanitaryInspection;
+        public InputAction @Roscomnadzor => m_Wrapper.m_GamePlay_Roscomnadzor;
+        public InputAction @Thieves => m_Wrapper.m_GamePlay_Thieves;
         public InputActionMap Get() { return m_Wrapper.m_GamePlay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -168,6 +352,30 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Escape.started += instance.OnEscape;
             @Escape.performed += instance.OnEscape;
             @Escape.canceled += instance.OnEscape;
+            @Police.started += instance.OnPolice;
+            @Police.performed += instance.OnPolice;
+            @Police.canceled += instance.OnPolice;
+            @Medical.started += instance.OnMedical;
+            @Medical.performed += instance.OnMedical;
+            @Medical.canceled += instance.OnMedical;
+            @FireDeparment.started += instance.OnFireDeparment;
+            @FireDeparment.performed += instance.OnFireDeparment;
+            @FireDeparment.canceled += instance.OnFireDeparment;
+            @GasService.started += instance.OnGasService;
+            @GasService.performed += instance.OnGasService;
+            @GasService.canceled += instance.OnGasService;
+            @Mortuary.started += instance.OnMortuary;
+            @Mortuary.performed += instance.OnMortuary;
+            @Mortuary.canceled += instance.OnMortuary;
+            @SanitaryInspection.started += instance.OnSanitaryInspection;
+            @SanitaryInspection.performed += instance.OnSanitaryInspection;
+            @SanitaryInspection.canceled += instance.OnSanitaryInspection;
+            @Roscomnadzor.started += instance.OnRoscomnadzor;
+            @Roscomnadzor.performed += instance.OnRoscomnadzor;
+            @Roscomnadzor.canceled += instance.OnRoscomnadzor;
+            @Thieves.started += instance.OnThieves;
+            @Thieves.performed += instance.OnThieves;
+            @Thieves.canceled += instance.OnThieves;
         }
 
         private void UnregisterCallbacks(IGamePlayActions instance)
@@ -178,6 +386,30 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Escape.started -= instance.OnEscape;
             @Escape.performed -= instance.OnEscape;
             @Escape.canceled -= instance.OnEscape;
+            @Police.started -= instance.OnPolice;
+            @Police.performed -= instance.OnPolice;
+            @Police.canceled -= instance.OnPolice;
+            @Medical.started -= instance.OnMedical;
+            @Medical.performed -= instance.OnMedical;
+            @Medical.canceled -= instance.OnMedical;
+            @FireDeparment.started -= instance.OnFireDeparment;
+            @FireDeparment.performed -= instance.OnFireDeparment;
+            @FireDeparment.canceled -= instance.OnFireDeparment;
+            @GasService.started -= instance.OnGasService;
+            @GasService.performed -= instance.OnGasService;
+            @GasService.canceled -= instance.OnGasService;
+            @Mortuary.started -= instance.OnMortuary;
+            @Mortuary.performed -= instance.OnMortuary;
+            @Mortuary.canceled -= instance.OnMortuary;
+            @SanitaryInspection.started -= instance.OnSanitaryInspection;
+            @SanitaryInspection.performed -= instance.OnSanitaryInspection;
+            @SanitaryInspection.canceled -= instance.OnSanitaryInspection;
+            @Roscomnadzor.started -= instance.OnRoscomnadzor;
+            @Roscomnadzor.performed -= instance.OnRoscomnadzor;
+            @Roscomnadzor.canceled -= instance.OnRoscomnadzor;
+            @Thieves.started -= instance.OnThieves;
+            @Thieves.performed -= instance.OnThieves;
+            @Thieves.canceled -= instance.OnThieves;
         }
 
         public void RemoveCallbacks(IGamePlayActions instance)
@@ -208,5 +440,13 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     {
         void OnDoorInteraction(InputAction.CallbackContext context);
         void OnEscape(InputAction.CallbackContext context);
+        void OnPolice(InputAction.CallbackContext context);
+        void OnMedical(InputAction.CallbackContext context);
+        void OnFireDeparment(InputAction.CallbackContext context);
+        void OnGasService(InputAction.CallbackContext context);
+        void OnMortuary(InputAction.CallbackContext context);
+        void OnSanitaryInspection(InputAction.CallbackContext context);
+        void OnRoscomnadzor(InputAction.CallbackContext context);
+        void OnThieves(InputAction.CallbackContext context);
     }
 }

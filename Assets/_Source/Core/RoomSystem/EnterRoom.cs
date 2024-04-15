@@ -2,11 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
+using UnityEngine.UIElements;
+using Image = UnityEngine.UI.Image;
 
 public class EnterRoom : MonoBehaviour
 {
-    //[SerializeField] private Color color;
+    [SerializeField] private GameObject panel;
+    [SerializeField] private int timeOfFade; 
     private void OnEnable()
     {
         EnteringRoom();
@@ -16,8 +20,8 @@ public class EnterRoom : MonoBehaviour
     {
         
        
-        transform.GetComponent<SpriteRenderer>().DOFade(1, 10);
-        Debug.Log("done");
+        panel.transform.GetComponent<Image>().DOFade(0, timeOfFade);
+        //Debug.Log("done");
     }
     
 }
