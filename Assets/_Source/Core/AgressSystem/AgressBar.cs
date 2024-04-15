@@ -27,27 +27,29 @@ public class AgressBar : MonoBehaviour
          UpdateBar?.Invoke();
          Invoke("Lose", 2f);
       }
-      if (CurrentAmount >= MaxAmount/3*2)
-      {
-
-      }
-    Vector3 scale = new Vector3(1f, 1.3f, 1f);
-    healthBarBorder.GetComponent<Image>().color = new Color32(160, 0, 0, 255);
+    healthBarBorder.GetComponent<Image>().DOColor(new Color32(160, 0, 0, 255), 0.1f).SetEase(Ease.InOutSine);
     redColoredBorder.GetComponent<Image>().DOColor(new Color32(255, 255, 255, 90), 0.1f).SetEase(Ease.InOutSine);
+    Vector3 scale = new Vector3(1f, 1.3f, 1f);
     healthBarBorder.transform.DOScale(scale, 0.1f).SetEase(Ease.InOutSine).OnComplete(returnNormalScale);
     UpdateBar?.Invoke();
     
    }
 
-   public void Heal()
-   {
-      CurrentAmount -= heal;
-      if (CurrentAmount <= 0)
-      {
-         CurrentAmount = 0;
-      }
-      UpdateBar?.Invoke();
-   }
+    public void Heal()
+    {
+        if (CurrentAmount != 0)
+        {
+            healthBarBorder.GetComponent<Image>().DOColor(new Color32(0, 255, 0, 255), 0.1f).SetEase(Ease.InOutSine);
+            Vector3 scale = new Vector3(1f, 1.3f, 1f);
+            healthBarBorder.transform.DOScale(scale, 0.1f).SetEase(Ease.InOutSine).OnComplete(returnNormalScale);
+        }
+        CurrentAmount -= heal;
+        if (CurrentAmount <= 0)
+        {
+            CurrentAmount = 0;
+        }
+        UpdateBar?.Invoke();
+    }
 
    public void Lose()
    {
