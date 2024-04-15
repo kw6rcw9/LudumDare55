@@ -125,6 +125,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Correct"",
+                    ""type"": ""Button"",
+                    ""id"": ""e5d875e6-4eac-4440-9a05-771b08bc1065"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -248,6 +257,17 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""action"": ""Enter"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""06fd895d-65b4-486f-86a7-d7206bdfdf4b"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Correct"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -273,6 +293,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         m_GamePlay_Roscomnadzor = m_GamePlay.FindAction("Roscomnadzor", throwIfNotFound: true);
         m_GamePlay_Thieves = m_GamePlay.FindAction("Thieves", throwIfNotFound: true);
         m_GamePlay_Enter = m_GamePlay.FindAction("Enter", throwIfNotFound: true);
+        m_GamePlay_Correct = m_GamePlay.FindAction("Correct", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -345,6 +366,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_GamePlay_Roscomnadzor;
     private readonly InputAction m_GamePlay_Thieves;
     private readonly InputAction m_GamePlay_Enter;
+    private readonly InputAction m_GamePlay_Correct;
     public struct GamePlayActions
     {
         private @PlayerInput m_Wrapper;
@@ -360,6 +382,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         public InputAction @Roscomnadzor => m_Wrapper.m_GamePlay_Roscomnadzor;
         public InputAction @Thieves => m_Wrapper.m_GamePlay_Thieves;
         public InputAction @Enter => m_Wrapper.m_GamePlay_Enter;
+        public InputAction @Correct => m_Wrapper.m_GamePlay_Correct;
         public InputActionMap Get() { return m_Wrapper.m_GamePlay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -402,6 +425,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Enter.started += instance.OnEnter;
             @Enter.performed += instance.OnEnter;
             @Enter.canceled += instance.OnEnter;
+            @Correct.started += instance.OnCorrect;
+            @Correct.performed += instance.OnCorrect;
+            @Correct.canceled += instance.OnCorrect;
         }
 
         private void UnregisterCallbacks(IGamePlayActions instance)
@@ -439,6 +465,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Enter.started -= instance.OnEnter;
             @Enter.performed -= instance.OnEnter;
             @Enter.canceled -= instance.OnEnter;
+            @Correct.started -= instance.OnCorrect;
+            @Correct.performed -= instance.OnCorrect;
+            @Correct.canceled -= instance.OnCorrect;
         }
 
         public void RemoveCallbacks(IGamePlayActions instance)
@@ -478,5 +507,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         void OnRoscomnadzor(InputAction.CallbackContext context);
         void OnThieves(InputAction.CallbackContext context);
         void OnEnter(InputAction.CallbackContext context);
+        void OnCorrect(InputAction.CallbackContext context);
     }
 }

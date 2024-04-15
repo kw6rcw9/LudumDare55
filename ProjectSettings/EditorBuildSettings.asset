@@ -17,5 +17,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Presentation/Scenes/LevelSelection.unity
     guid: 7fbe88a49861cfe4fa3a44c4c92fa2df
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/SinScenes/AcediaScene.unity
+    guid: 7fc4486e4dad2d646a058ed71a40a0ba
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/SinScenes/AraScene.unity
+    guid: 842d0bc393a41564387bd3fe524b3613
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/SinScenes/AvaritiaScene.unity
+    guid: aec91739082184542a03e5b1e547a3f3
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/SinScenes/GulaScene.unity
+    guid: ddc71702a0080324fbeb823b68bde65a
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/SinScenes/InvidiaScene.unity
+    guid: 27b05c9862802bd47b1695557d9b5075
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/SinScenes/LuxuriaScene.unity
+    guid: fccd7510d4e14504b82d8ecdc705c558
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/SinScenes/SuperbiaScene.unity
+    guid: b4d018eeaeb80384bb24592ba7335b08
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
