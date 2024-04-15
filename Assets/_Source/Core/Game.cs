@@ -1,4 +1,5 @@
 ﻿using UnityEngine.SceneManagement;
+using UnityEngine;
 
 namespace Core
 {
@@ -11,12 +12,28 @@ namespace Core
 
         public static void Lose()
         {
-          //TODO restart current scene  
+            int dayCounter = PlayerPrefs.GetInt("DayCounter") + 1;
+            PlayerPrefs.SetInt("DayCounter", dayCounter);
+            SceneManager.LoadScene("LevelSelection");
         }
 
         public static void NextLevel()
         {
-            //TODO transition to list of tasks
+            int dayCounter = PlayerPrefs.GetInt("DayCounter") + 1;
+            PlayerPrefs.SetInt("DayCounter", dayCounter);
+            int currentLevel = PlayerPrefs.GetInt("CurrentLevel");
+            string days = PlayerPrefs.GetString("Days");
+            string newDays = "";
+            for (int i = 0; i < currentLevel; i++) {
+                newDays += days[i];
+            }
+            newDays += "1";
+            for (int i = currentLevel + 1; i < 7; i++) {
+                newDays += days[i];
+            }
+
+            PlayerPrefs.SetString("Days", newDays);
+            SceneManager.LoadScene("LevelSelection");
         }
     }
 }

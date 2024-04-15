@@ -9,6 +9,8 @@ namespace UISystem
     {
         [SerializeField] private GameObject menuPanel;
         [SerializeField] private GameObject settingsPanel;
+        [SerializeField] private Button continueButton;
+                          
         [SerializeField] private AudioMixer audioMixer;
         [SerializeField] private Slider sliderEffects;
         [SerializeField] private Slider sliderMusics;
@@ -24,6 +26,12 @@ namespace UISystem
 
         void Awake() {
             userData = new UserData();
+            if (PlayerPrefs.HasKey("Days"))
+            {
+                continueButton.onClick.AddListener(Continue);
+            } else {
+                continueButton.gameObject.SetActive(false);
+            }
         }   
 
         void Start()
@@ -92,10 +100,15 @@ namespace UISystem
 
         public void Play()
         {
-            PlayerPrefs.Save();
             PlayerPrefs.SetString("Days", "0000000");
             PlayerPrefs.SetInt("DayCounter", 1);
+            PlayerPrefs.Save();
             SceneManager.LoadScene("IntroScene");
+        }
+
+        public void Continue()
+        {
+            SceneManager.LoadScene("LevelSelection");
         }
 
         public void ChangeEffects()

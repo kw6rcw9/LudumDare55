@@ -38,8 +38,11 @@ namespace Core.RoomSystem
                 if(SettingsHandler.IsNeeded)
                     _score.AddCompletedTask();
                 _bar.Heal();
-                if(_score.NeededAmountOfTasks == _controller.NeededCorrectTasksNum)
+                if(_score.NeededAmountOfTasks == _controller.NeededCorrectTasksNum) {
+                    
                     StartCoroutine(NextLevel());
+                    return;
+                }
                 
             }
             StartCoroutine(CloseRoom());
