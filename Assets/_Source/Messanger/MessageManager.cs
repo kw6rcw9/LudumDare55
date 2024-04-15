@@ -9,7 +9,7 @@ using UnityEngine.Networking;
 public class MessageManager : MonoBehaviour
 {
     private UserData userData;
-    public List<Messages> messages;
+    public List<Message> messages;
     private int message_amount;
 
     void Awake()
@@ -36,7 +36,7 @@ public class MessageManager : MonoBehaviour
                     AddMessage(new Message(response.Text, obj[property.Name]["message"].ToString(), Int32.Parse(obj[property.Name]["createdAt"].ToString())));
                 });
             }
-            message_amount = obj.Count()
+            message_amount = obj.Count;
         });
         Debug.Log(message_amount);
     }
