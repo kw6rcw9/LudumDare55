@@ -116,12 +116,12 @@ TextureImporter:
       name: pause_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 129
-        height: 107
+        x: 223
+        y: 605
+        width: 409
+        height: 409
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bbb40c78dd1a7a24994a0d8c5d7ff901
     internalID: 0
     vertices: []
     indices: 
