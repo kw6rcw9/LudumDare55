@@ -26,10 +26,10 @@ namespace UISystem
 
         void Awake() {
             userData = new UserData();
-            if (PlayerPrefs.HasKey("Days"))
+            if (PlayerPrefs.HasKey("Days") &&  continueButton != null)
             {
                 continueButton.onClick.AddListener(Continue);
-            } else {
+            } else if (continueButton != null) {
                 continueButton.gameObject.SetActive(false);
             }
         }   

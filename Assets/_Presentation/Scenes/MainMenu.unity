@@ -780,7 +780,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 1491327179}
-  settingsPanel: {fileID: 2107332421}
+  settingsPanel: {fileID: 1264369845}
+  continueButton: {fileID: 1264369847}
   audioMixer: {fileID: 24100000, guid: bf6ca344fc9415b4e9c45aca81cf704b, type: 2}
   sliderEffects: {fileID: 521219627}
   sliderMusics: {fileID: 911159479}
@@ -946,19 +947,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1264369848}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1030859251}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1264369848
 MonoBehaviour:
   m_ObjectHideFlags: 0
