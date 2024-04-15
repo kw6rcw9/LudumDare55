@@ -63,6 +63,7 @@ namespace UISystem
             else
             {
                 PlayerPrefs.SetFloat("Effects", sliderEffects.value);
+                PlayerPrefs.Save()
             }
 
             // EffectsToggle button
@@ -85,6 +86,7 @@ namespace UISystem
             else
             {
                 PlayerPrefs.SetFloat("Music", sliderMusics.value);
+                PlayerPrefs.Save()
             }
 
             // MusicToggle button
@@ -118,6 +120,7 @@ namespace UISystem
             if (PlayerPrefs.GetInt("IsEffects") == 1) {
                 EffectsOn();
             }
+            PlayerPrefs.Save()
         }
 
         public void EffectsOff()
@@ -127,6 +130,7 @@ namespace UISystem
             buttonEffects.GetComponent<Image>().sprite = buttonEffectsOffSprite;
             buttonEffects.onClick.RemoveListener(EffectsOff);
             buttonEffects.onClick.AddListener(EffectsOn);
+            PlayerPrefs.Save()
         }
 
         private void EffectsOn()
@@ -136,6 +140,7 @@ namespace UISystem
             buttonEffects.GetComponent<Image>().sprite = buttonEffectsSprite;
             buttonEffects.onClick.RemoveListener(EffectsOn);
             buttonEffects.onClick.AddListener(EffectsOff);
+            PlayerPrefs.Save()
         }
 
         public void ChangeMusic()
@@ -145,6 +150,7 @@ namespace UISystem
             if (PlayerPrefs.GetInt("IsMusic") == 1) {
                 MusicOn();
             }
+            PlayerPrefs.Save()
         }
 
         public void MusicOff()
@@ -154,6 +160,7 @@ namespace UISystem
             buttonMusic.GetComponent<Image>().sprite = buttonMusicOffSprite;
             buttonMusic.onClick.RemoveListener(MusicOff);
             buttonMusic.onClick.AddListener(MusicOn);
+            PlayerPrefs.Save()
         }
 
         private void MusicOn()
@@ -163,6 +170,7 @@ namespace UISystem
             buttonMusic.GetComponent<Image>().sprite = buttonMusicSprite;
             buttonMusic.onClick.RemoveListener(MusicOn);
             buttonMusic.onClick.AddListener(MusicOff);
+            PlayerPrefs.Save()
         }
     }
 }

@@ -14,6 +14,7 @@ namespace Core
         {
             int dayCounter = PlayerPrefs.GetInt("DayCounter") + 1;
             PlayerPrefs.SetInt("DayCounter", dayCounter);
+            PlayerPrefs.Save()
             SceneManager.LoadScene("LevelSelection");
         }
 
@@ -33,6 +34,7 @@ namespace Core
             }
 
             PlayerPrefs.SetString("Days", newDays);
+            PlayerPrefs.Save()
             SceneManager.LoadScene("LevelSelection");
         }
     }
