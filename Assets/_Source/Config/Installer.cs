@@ -3,16 +3,21 @@ using UISystem;
 using UnityEngine;
 using Zenject;
 
-public class Installer : MonoInstaller
+namespace Config
 {
-    [SerializeField] private Menu menu;
-    [SerializeField] private GeneratorController controller;
-    public override void InstallBindings()
+    public class Installer : MonoInstaller
     {
-        Container.Bind<GeneratorController>().FromInstance(controller).NonLazy();
-        Container.Bind<TaskScore>().AsSingle().NonLazy();
-        Container.Bind<RoomsPool>().AsTransient().NonLazy();
-        Container.Bind<PlayerInput>().AsSingle().NonLazy();
-        Container.Bind<Menu>().FromInstance(menu).NonLazy();
+        [SerializeField] private Menu menu;
+        [SerializeField] private GeneratorController controller;
+        [SerializeField] private AgressBar bar;
+        public override void InstallBindings()
+        {
+            Container.Bind<AgressBar>().FromInstance(bar).NonLazy();
+            Container.Bind<GeneratorController>().FromInstance(controller).NonLazy();
+            Container.Bind<TaskScore>().AsSingle().NonLazy();
+            Container.Bind<RoomsPool>().AsTransient().NonLazy();
+            Container.Bind<PlayerInput>().AsSingle().NonLazy();
+            Container.Bind<Menu>().FromInstance(menu).NonLazy();
+        }
     }
 }
