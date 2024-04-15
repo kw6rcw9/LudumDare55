@@ -8,7 +8,7 @@ namespace Core.RoomSystem
    
     public class RoomsPool
     {
-        public List<GameObject> Rooms { get; private set; }
+        public static List<GameObject> Rooms { get; private set; }
 
 
         public void InitPool(List<GameObject> rooms, GameObject parent)

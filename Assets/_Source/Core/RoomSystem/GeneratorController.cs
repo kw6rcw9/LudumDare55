@@ -24,10 +24,20 @@ namespace Core.RoomSystem
         public void GetRoom()
         {
             
-            _pool.TryGetFromPool(out GameObject room);
-            if(!gameObject.activeSelf)
-                gameObject.SetActive(true);
-            Debug.Log(room.activeSelf);
+            if(_pool.TryGetFromPool(out GameObject room))
+            {
+                if(!gameObject.activeSelf)
+                    gameObject.SetActive(true);
+                
+            }
+            else
+            {
+                Game.Lose();
+            }
+           
+            
+            
+            
             
         }
     

@@ -10,6 +10,7 @@ public class Installer : MonoInstaller
     public override void InstallBindings()
     {
         Container.Bind<GeneratorController>().FromInstance(controller).NonLazy();
+        Container.Bind<TaskScore>().AsSingle().NonLazy();
         Container.Bind<RoomsPool>().AsTransient().NonLazy();
         Container.Bind<PlayerInput>().AsSingle().NonLazy();
         Container.Bind<Menu>().FromInstance(menu).NonLazy();

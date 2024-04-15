@@ -13,10 +13,12 @@ namespace Core.InputSystem
         private Menu _menu;
         private GeneratorController _generatorController;
         private RoomController _roomController;
+        private TaskScore _score;
    
         [Inject]
-        private void Construct(PlayerInput inputSystem, Menu menu, GeneratorController generatorController)
+        private void Construct(PlayerInput inputSystem, Menu menu, GeneratorController generatorController, TaskScore score)
         {
+            _score = score;
             _inputSystem = inputSystem;
             _menu = menu;
             _generatorController = generatorController;
@@ -30,6 +32,7 @@ namespace Core.InputSystem
                 if (transform.GetChild(i).gameObject.activeSelf)
                 {
                     _roomController = transform.GetChild(i).GetComponent<RoomController>();
+                    _roomController.Construct(_score);
                     Debug.Log(_roomController);
                 }
             }
