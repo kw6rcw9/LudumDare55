@@ -9,6 +9,8 @@ using UnityEngine.Networking;
 public class MessageManager : MonoBehaviour
 {
     private UserData userData;
+    public List<Messages> messages;
+    private int message_amount;
 
     void Awake()
     {
@@ -20,17 +22,7 @@ public class MessageManager : MonoBehaviour
         }
     }
 
-    public void sendMessage(string roomID, string messageText)
-    {
-
-        RestClient.Put($"https://firetest-96e6d-default-rtdb.firebaseio.com/messages/{roomID}/{userData.userID}.json", "{\"message\": \"" + messageText + "\",\"createdAt\": " + DateTimeOffset.UtcNow.ToUnixTimeSeconds() + "}");
-
-    }
-
-    public static List<Message> receiveMessages(string roomID)
-    {
-        List<Message> messages = new List<Message>();
-        // UnityWebRequest.Get($"https://firetest-96e6d-default-rtdb.firebaseio.com/messages/{roomID}.json")
+    private void receiveMessages() {
         RestClient.Get($"https://firetest-96e6d-default-rtdb.firebaseio.com/messages/{roomID}.json").Then(response =>
         {
             // Debug.Log(response.Text);
@@ -45,12 +37,21 @@ public class MessageManager : MonoBehaviour
                     Debug.Log(messages[messages.Count-1].userName +" "+ messages[messages.Count-1].message +" "+ messages[messages.Count-1].createdAt);
                 });
             }
+            obj.Count()
         });
-        return messages;
+    }
+
+    public void sendMessage(string roomID, string messageText)
+    {
+
+        RestClient.Put($"https://firetest-96e6d-default-rtdb.firebaseio.com/messages/{roomID}/{userData.userID}.json", "{\"message\": \"" + messageText + "\",\"createdAt\": " + DateTimeOffset.UtcNow.ToUnixTimeSeconds() + "}");
+
     }
 }
 
-public class Message
+public class Messages {    public class Messages() {
+    }
+}
 {
     public string userName { get; set; } = null;
     public string message { get; set; } = null;
