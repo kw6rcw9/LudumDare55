@@ -37,6 +37,7 @@ namespace UISystem
             if (settingsFlag) {
                 menuPanel.SetActive(true);
                 settingsPanel.SetActive(false);
+                //Debug.Log(settingsPanel.activeSelf);
                 settingsFlag = !settingsFlag;
             } else {
                 menuPanel.SetActive(false);

@@ -22,6 +22,81 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "name": "Police",
+                    "type": "Button",
+                    "id": "8bf860c7-980b-40d2-80fa-1df4f408ad77",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Medical",
+                    "type": "Button",
+                    "id": "491754ff-b608-4ed5-bb85-711c79ff76ba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FireDeparment",
+                    "type": "Button",
+                    "id": "e4f263f4-dd77-428c-bf96-7007a156cd9c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "GasService",
+                    "type": "Button",
+                    "id": "82821a49-2491-4c76-b92e-a6798a1162fa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mortuary",
+                    "type": "Button",
+                    "id": "63a4e127-891b-413c-b3eb-6cca3046233b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SanitaryInspection",
+                    "type": "Button",
+                    "id": "e93076fb-bfbb-4171-8a15-5b0dcaa36dd3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Roscomnadzor",
+                    "type": "Button",
+                    "id": "20564f3a-d084-4067-b112-f0753ff2277b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Thieves",
+                    "type": "Button",
+                    "id": "7bce6912-45da-432b-a7c0-d6593d9f9403",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+>>>>>>> origin/generation
                 }
             ],
             "bindings": [
@@ -46,6 +121,97 @@
                     "action": "Escape",
                     "isComposite": false,
                     "isPartOfComposite": false
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "name": "",
+                    "id": "49054ade-00ba-4bdc-abae-ce386732a885",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Police",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "021c612e-f983-4e3f-a3c1-579e85d4ffe8",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Medical",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "86bda4a5-66cc-42b5-9ca8-b5d3ecd5acd7",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireDeparment",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb990b97-00f2-4c53-9065-b4079c43ae59",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GasService",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f8c0ee95-a792-4a7c-a9b0-e67bb3b10981",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mortuary",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9617417a-784b-48fa-bf8f-3fe7ff86fa7c",
+                    "path": "<Keyboard>/6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SanitaryInspection",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d87beccd-16d0-4436-a0c7-e9c7d7480c49",
+                    "path": "<Keyboard>/7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Roscomnadzor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5359bb61-6997-4353-b978-659a1322d04c",
+                    "path": "<Keyboard>/8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thieves",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+>>>>>>> origin/generation
                 }
             ]
         }
