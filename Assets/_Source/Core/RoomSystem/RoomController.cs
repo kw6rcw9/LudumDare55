@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using Zenject;
 
@@ -10,6 +11,7 @@ namespace Core.RoomSystem
         private GeneratorController _controller;
         private TaskScore _score;
         private AgressBar _bar;
+        public static Action<Services> ChangeSprite;
         public void Construct(TaskScore score, AgressBar bar)
         {
             _score = score;
@@ -22,6 +24,7 @@ namespace Core.RoomSystem
 
         public void CheckOnCorrectService(Services service)
         {
+            ChangeSprite?.Invoke(service);
             if (service != roomSettingsHandler.Services)
             {
                 Debug.Log("loh");
@@ -36,15 +39,16 @@ namespace Core.RoomSystem
                     NextLevel();
                 
             }
-            CloseRoom();
-        
-        
+
+            StartCoroutine(CloseRoom());
+
 
 
         }
 
-        private void CloseRoom()
+        private IEnumerator CloseRoom()
         {
+            yield return new WaitForSeconds(2f);
             if (RoomsPool.Rooms.Count == 0)
             {
                 Game.Lose();

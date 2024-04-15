@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
@@ -11,6 +12,7 @@ namespace Core.RoomSystem
         [field: SerializeField] public GameObject Hall { get; private set; }
         [field: SerializeField] public int NeededCorrectTasksNum { get; set; }
         private RoomsPool _pool;
+        public static Action EnterRoom;
     
         [Inject]
         private void Construct(RoomsPool pool)
@@ -26,8 +28,11 @@ namespace Core.RoomSystem
             
             if(_pool.TryGetFromPool(out GameObject room))
             {
-                if(!gameObject.activeSelf)
+                if (!gameObject.activeSelf)
+                {
                     gameObject.SetActive(true);
+                    EnterRoom?.Invoke();
+                }
                 
             }
             else

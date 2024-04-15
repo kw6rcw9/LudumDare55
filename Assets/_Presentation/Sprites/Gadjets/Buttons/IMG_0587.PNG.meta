@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: e8fc17dba5ad26d48b8ffd0e7679ff32
+guid: 9af55576408f8a24c80898c54ed3cfae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8227957925652296926
-    second: stressBarFull_0
-  - first:
-      213: -867913182896525517
-    second: stressBarFull_1
-  - first:
-      213: 3762941840354265743
-    second: stressBarFull_2
-  - first:
-      213: 706884748134729642
-    second: stressBarFull_3
-  - first:
-      213: 2306951860899916244
-    second: stressBarFull_4
+      213: -25159926936816354
+    second: IMG_0587_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,22 +113,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stressBarFull_0
+      name: IMG_0587_0
       rect:
         serializedVersion: 2
-        x: 945
-        y: 630
-        width: 892
-        height: 119
+        x: 245
+        y: 811
+        width: 185
+        height: 185
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22b82a63cdb60dd80800000000000000
-      internalID: -8227957925652296926
+      spriteID: e153b540e2d96aff0800000000000000
+      internalID: -25159926936816354
       vertices: []
       indices: 
       edges: []
@@ -148,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4b3e4c70c9cf8744e995ff4bec6e46e7
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -156,7 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      stressBarFull_0: -8227957925652296926
+      IMG_0587_0: -25159926936816354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

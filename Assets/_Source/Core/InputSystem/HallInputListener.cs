@@ -14,6 +14,7 @@ public class HallInputListener : MonoBehaviour
    private Menu _menu;
    private GeneratorController _generatorController;
    
+   
    [Inject]
    private void Construct(PlayerInput inputSystem, Menu menu, GeneratorController generatorController)
    {
@@ -27,6 +28,7 @@ public class HallInputListener : MonoBehaviour
    {
       
       _inputSystem.Enable();
+      
       Debug.Log("Enabled");
       _inputSystem.GamePlay.DoorInteraction.performed +=  ReadDoorInteraction;
       _inputSystem.GamePlay.Escape.performed +=  ReadEscape;

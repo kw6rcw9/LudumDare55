@@ -9,6 +9,7 @@
         Mortuary,
         Sanitary,
         Roskomdanzor,
-        Thieves
+        Thieves,
+        Message
     }
 }
