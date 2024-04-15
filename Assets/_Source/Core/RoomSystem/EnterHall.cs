@@ -12,20 +12,29 @@ public class EnterHall : MonoBehaviour
 
     [SerializeField] private Color defaultColor;
     
+    private Tween yep;
     private void OnEnable()
     {
+        
         panel.transform.GetComponent<Image>().color = defaultColor;
+        Debug.Log(panel.transform.GetComponent<Image>().color);
        EnteringRoom();
     }
 
-    
+    private void OnDisable()
+    {
+        if (yep != null)
+        {
+            yep.Rewind();
+        }
+    }
 
     private void EnteringRoom()
     {
-        
-       
-        panel.transform.GetComponent<Image>().DOFade(0, timeOfFade);
-        //Debug.Log("done");
+        yep = panel.transform.GetComponent<Image>().DOFade(0, timeOfFade);
+     
+        Debug.Log("enter hall");
+        Debug.Log(panel.transform.GetComponent<Image>().color);
     }
 
 }
