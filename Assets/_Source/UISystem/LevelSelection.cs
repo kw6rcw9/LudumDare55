@@ -41,6 +41,7 @@ namespace UISystem
         public void chooseLevel(int levelID)
         {
             PlayerPrefs.SetInt("CurrentLevel", levelID);
+            PlayerPrefs.Save();
             string sceneName = "";
             switch (levelID) {
                 case 0:
