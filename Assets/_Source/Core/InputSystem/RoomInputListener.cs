@@ -79,38 +79,47 @@ namespace Core.InputSystem
         private void CallPolice(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.Police);
+            _inputSystem.Disable();
         }
         private void CallMedical(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.Medical);
+            _inputSystem.Disable();
         }
         private void CallFireDepartment(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.FireDepartment);
+            _inputSystem.Disable();
         }
         private void CallGasService(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.GasService);
+            _inputSystem.Disable();
         }
         private void CallMortuary(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.Mortuary);
+            _inputSystem.Disable();
         }
         private void CallSanitary(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.Sanitary);
+            _inputSystem.Disable();
         }
         private void CallRoskomdanzor(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.Roskomdanzor);
+            _inputSystem.Disable();
         }
         private void CallThieves(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.Thieves);
+            _inputSystem.Disable();
         }
         private void CorrectCitizens(InputAction.CallbackContext obj)
         {
             _roomController.CheckOnCorrectService(Services.CorrectCitizens);
+            _inputSystem.Disable();
         }
 
     
