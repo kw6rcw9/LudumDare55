@@ -16,13 +16,13 @@ public class MessageManager : MonoBehaviour
     {
         userData = new UserData();
         // sendMessage("2", "meowwww");
-        List<Message> messages = receiveMessages("2");
+        receiveMessages("2");
         foreach (var message in messages) {
             Debug.Log(message.userName +" "+ message.message +" "+ message.createdAt);
         }
     }
 
-    private void receiveMessages() {
+    public void receiveMessages(string roomID) {
         RestClient.Get($"https://firetest-96e6d-default-rtdb.firebaseio.com/messages/{roomID}.json").Then(response =>
         {
             // Debug.Log(response.Text);
@@ -33,14 +33,19 @@ public class MessageManager : MonoBehaviour
                 // Debug.Log(property.Name);
                 RestClient.Get("https://firetest-96e6d-default-rtdb.firebaseio.com/users/" + property.Name + ".json").Then(response =>
                 {
-                    messages.Add(new Message(response.Text, obj[property.Name]["message"].ToString(), Int32.Parse(obj[property.Name]["createdAt"].ToString())));
-                    Debug.Log(messages[messages.Count-1].userName +" "+ messages[messages.Count-1].message +" "+ messages[messages.Count-1].createdAt);
+                    AddMessage(new Message(response.Text, obj[property.Name]["message"].ToString(), Int32.Parse(obj[property.Name]["createdAt"].ToString())));
                 });
             }
-            obj.Count()
+            message_amount = obj.Count()
         });
+        Debug.Log(message_amount);
     }
 
+    private void AddMessage(Message message) {
+        messages.Add(message);
+        Debug.Log(messages[messages.Count-1].userName +" "+ messages[messages.Count-1].message +" "+ messages[messages.Count-1].createdAt);
+
+    }
     public void sendMessage(string roomID, string messageText)
     {
 
@@ -49,10 +54,7 @@ public class MessageManager : MonoBehaviour
     }
 }
 
-public class Messages {    public class Messages() {
-    }
-}
-{
+public class Message {
     public string userName { get; set; } = null;
     public string message { get; set; } = null;
     public int createdAt { get; set; } = 0;
