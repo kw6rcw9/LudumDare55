@@ -19,7 +19,7 @@ public class Registration : MonoBehaviour
             string userID = Guid.NewGuid().ToString();
             PlayerPrefs.SetString("UserID", userID);
             RestClient.Put($"https://firetest-96e6d-default-rtdb.firebaseio.com/users/{userID}.json", $"\"{userName}\"");
-            PlayerPrefs.Save()
+            PlayerPrefs.Save();
             SceneManager.LoadScene("MainMenu");
         } else {
             errorContent.text = "It is forbiden to use the symbol \" in the name";
