@@ -14,10 +14,16 @@ namespace Core.InputSystem
         private GeneratorController _generatorController;
         private RoomController _roomController;
         private TaskScore _score;
+        private AgressBar _bar;
    
         [Inject]
-        private void Construct(PlayerInput inputSystem, Menu menu, GeneratorController generatorController, TaskScore score)
+        private void Construct(PlayerInput inputSystem, 
+            Menu menu, 
+            GeneratorController generatorController,
+            TaskScore score,
+            AgressBar bar)
         {
+            _bar = bar;
             _score = score;
             _inputSystem = inputSystem;
             _menu = menu;
@@ -32,7 +38,7 @@ namespace Core.InputSystem
                 if (transform.GetChild(i).gameObject.activeSelf)
                 {
                     _roomController = transform.GetChild(i).GetComponent<RoomController>();
-                    _roomController.Construct(_score);
+                    _roomController.Construct(_score, _bar);
                     Debug.Log(_roomController);
                 }
             }

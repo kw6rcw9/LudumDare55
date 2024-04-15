@@ -22,8 +22,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-<<<<<<< HEAD
-=======
                 },
                 {
                     "name": "Police",
@@ -96,7 +94,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
->>>>>>> origin/generation
                 }
             ],
             "bindings": [
@@ -121,8 +118,6 @@
                     "action": "Escape",
                     "isComposite": false,
                     "isPartOfComposite": false
-<<<<<<< HEAD
-=======
                 },
                 {
                     "name": "",
@@ -211,7 +206,6 @@
                     "action": "Thieves",
                     "isComposite": false,
                     "isPartOfComposite": false
->>>>>>> origin/generation
                 }
             ]
         }

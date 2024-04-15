@@ -8,10 +8,12 @@ namespace Core.RoomSystem
     {
         [SerializeField] private RoomSettingsHandler roomSettingsHandler;
         private GeneratorController _controller;
-        private TaskScore _score; 
-        public void Construct(TaskScore score)
+        private TaskScore _score;
+        private AgressBar _bar;
+        public void Construct(TaskScore score, AgressBar bar)
         {
             _score = score;
+            _bar = bar;
         }
         private void OnEnable()
         {
@@ -21,11 +23,15 @@ namespace Core.RoomSystem
         public void CheckOnCorrectService(Services service)
         {
             if (service != roomSettingsHandler.Services)
+            {
                 Debug.Log("loh");
+                _bar.TakeDamage();
+            }
             else
             {
                 
                 _score.AddCompletedTask();
+                _bar.Heal();
                 if(_score.NeededAmountOfTasks == _controller.NeededCorrectTasksNum)
                     NextLevel();
                 
