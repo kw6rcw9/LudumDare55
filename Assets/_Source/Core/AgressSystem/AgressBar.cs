@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Core;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class AgressBar : MonoBehaviour
 {
@@ -25,10 +26,15 @@ public class AgressBar : MonoBehaviour
          UpdateBar?.Invoke();
          Invoke("Lose", 2f);
       }
-        Vector3 scale = new Vector3(1f, 1.3f, 1f);
-        healthBarBorder.transform.DOScale(scale, 0.1f).SetEase(Ease.InOutSine).OnComplete(returnNormalScale);
-      UpdateBar?.Invoke();
-      
+      if (CurrentAmount >= MaxAmount/3*2)
+      {
+
+      }
+    Vector3 scale = new Vector3(1f, 1.3f, 1f);
+    healthBarBorder.GetComponent<Image>().color = new Color32(160, 0, 0, 255);
+    healthBarBorder.transform.DOScale(scale, 0.1f).SetEase(Ease.InOutSine).OnComplete(returnNormalScale);
+    UpdateBar?.Invoke();
+    
    }
 
    public void Heal()
@@ -49,6 +55,7 @@ public class AgressBar : MonoBehaviour
     void returnNormalScale() {
         Vector3 scale = new Vector3(1f, 1f, 1f);
         healthBarBorder.transform.DOScale(scale, 0.15f);
+        healthBarBorder.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
     }
 
     void Start() {
