@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: adfef9fcf6338eb458f46acdad0cb6a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1676036715760723970
+    second: levelSelectionSins_0
+  - first:
+      213: 3473886789340190812
+    second: levelSelectionSins_1
+  - first:
+      213: -4406330359831500875
+    second: levelSelectionSins_2
+  - first:
+      213: -8336731553290597608
+    second: levelSelectionSins_3
+  - first:
+      213: -5377406173417612443
+    second: levelSelectionSins_4
+  - first:
+      213: 5520056453976331808
+    second: levelSelectionSins_5
+  - first:
+      213: -8757049183522490414
+    second: levelSelectionSins_6
+  - first:
+      213: 4781719340740263539
+    second: levelSelectionSins_7
+  - first:
+      213: 6590174186456767031
+    second: levelSelectionSins_8
+  - first:
+      213: -6116117752135160875
+    second: levelSelectionSins_9
+  - first:
+      213: -3569964733918780360
+    second: levelSelectionSins_10
+  - first:
+      213: 9017929265731719362
+    second: levelSelectionSins_11
+  - first:
+      213: -3286810100828975896
+    second: levelSelectionSins_12
+  - first:
+      213: -8874924473975824783
+    second: levelSelectionSins_13
+  - first:
+      213: 1829635675693757985
+    second: levelSelectionSins_14
+  - first:
+      213: -1908688720094759245
+    second: levelSelectionSins_15
+  - first:
+      213: 6814565508068658159
+    second: levelSelectionSins_16
+  - first:
+      213: -9158840191533316212
+    second: levelSelectionSins_17
+  - first:
+      213: -3432420494947790072
+    second: levelSelectionSins_18
+  - first:
+      213: -5633579400034546039
+    second: levelSelectionSins_19
+  - first:
+      213: 9005216538806666831
+    second: levelSelectionSins_20
+  - first:
+      213: -328722584295686412
+    second: levelSelectionSins_21
+  - first:
+      213: -1526220860459391544
+    second: levelSelectionSins_22
+  - first:
+      213: 5624192526119342635
+    second: levelSelectionSins_23
+  - first:
+      213: -4689814471904906843
+    second: levelSelectionSins_24
+  - first:
+      213: -5404255207224414690
+    second: levelSelectionSins_25
+  - first:
+      213: -1461397112379862471
+    second: levelSelectionSins_26
+  - first:
+      213: -7178851517577843142
+    second: levelSelectionSins_27
+  - first:
+      213: -2700158867996115561
+    second: levelSelectionSins_28
+  - first:
+      213: 3554744358823469672
+    second: levelSelectionSins_29
+  - first:
+      213: -3187278746648929740
+    second: levelSelectionSins_30
+  - first:
+      213: -6776538141139323128
+    second: levelSelectionSins_31
+  - first:
+      213: 847287849716440586
+    second: levelSelectionSins_32
+  - first:
+      213: 7484014599832381617
+    second: levelSelectionSins_33
+  - first:
+      213: -8530470328678191027
+    second: levelSelectionSins_34
+  - first:
+      213: -108603015972537899
+    second: levelSelectionSins_35
+  - first:
+      213: 6954825589327173457
+    second: levelSelectionSins_36
+  - first:
+      213: -3375232365087066031
+    second: levelSelectionSins_37
+  - first:
+      213: -2423998242929135333
+    second: levelSelectionSins_38
+  - first:
+      213: 3373184853785602893
+    second: levelSelectionSins_39
+  - first:
+      213: -1896985017733070160
+    second: levelSelectionSins_40
+  - first:
+      213: -3508288622074963337
+    second: levelSelectionSins_41
+  - first:
+      213: -2143783501193523310
+    second: levelSelectionSins_42
+  - first:
+      213: -4995678275091356517
+    second: levelSelectionSins_43
+  - first:
+      213: -2742528615350288940
+    second: levelSelectionSins_44
+  - first:
+      213: 4232336408742958900
+    second: levelSelectionSins_45
+  - first:
+      213: 887186253048412561
+    second: levelSelectionSins_46
+  - first:
+      213: -452575897443356007
+    second: levelSelectionSins_47
+  - first:
+      213: 4315736123573562382
+    second: levelSelectionSins_48
+  - first:
+      213: -4677576065166537521
+    second: levelSelectionSins_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: levelSelectionSins_0
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 697
+        width: 300
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d130e09d127ba114396f4ffd61c735b1
+      internalID: 64837113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelSelectionSins_1
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 589
+        width: 300
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c35865f8ab2ee469e0134bca17d21e
+      internalID: -1292416972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelSelectionSins_2
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 481
+        width: 300
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a933095b48dbd9f4ab573e431d7470c3
+      internalID: -288248251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelSelectionSins_3
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 373
+        width: 300
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d367e3d48e5e0b4db8319c42dcaec1a
+      internalID: 1986582256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelSelectionSins_4
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 264
+        width: 300
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311fec9f33e37bb47aef0212873c246d
+      internalID: 915156303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelSelectionSins_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 155
+        width: 300
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121684b1eaedf6a48b82f93595d2fc8d
+      internalID: -557672758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levelSelectionSins_6
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 48
+        width: 300
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63eea717ee2e9049a7a686b51f8c18a
+      internalID: -1496893658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 601e21e1469378641856ed8b060afe6a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      levelSelectionSins_0: 64837113
+      levelSelectionSins_1: -1292416972
+      levelSelectionSins_2: -288248251
+      levelSelectionSins_3: 1986582256
+      levelSelectionSins_4: 915156303
+      levelSelectionSins_5: -557672758
+      levelSelectionSins_6: -1496893658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
