@@ -1,4 +1,4 @@
-using Proyecto26;
+// using Proyecto26;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,7 +18,7 @@ public class Registration : MonoBehaviour
             PlayerPrefs.SetString("UserName", userName);
             string userID = Guid.NewGuid().ToString();
             PlayerPrefs.SetString("UserID", userID);
-            RestClient.Put($"https://firetest-96e6d-default-rtdb.firebaseio.com/users/{userID}.json", $"\"{userName}\"");
+            // RestClient.Put($"https://firetest-96e6d-default-rtdb.firebaseio.com/users/{userID}.json", $"\"{userName}\"");
             PlayerPrefs.Save();
             SceneManager.LoadScene("MainMenu");
         } else {
