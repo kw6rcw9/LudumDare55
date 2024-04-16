@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 
 public class Sound : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     [SerializeField] private AudioClip audioClip;
     private AudioSource audioSource;
 
