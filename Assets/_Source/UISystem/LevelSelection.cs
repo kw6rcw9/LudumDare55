@@ -48,22 +48,16 @@ namespace UISystem
                     sceneName = "LuxuriaScene";
                 break;
                 case 1:
-                    sceneName = "AraScene";
+                    sceneName = "GulaScene";
                 break;
                 case 2:
-                    sceneName = "AvaritiaScene";
+                    sceneName = "AraScene";
                 break;
                 case 3:
                     sceneName = "InvidiaScene";
                 break;
                 case 4:
-                    sceneName = "AcediaScene";
-                break;
-                case 5:
                     sceneName = "SuperbiaScene";
-                break;
-                case 6:
-                    sceneName = "GulaScene";
                 break;
             }
 
