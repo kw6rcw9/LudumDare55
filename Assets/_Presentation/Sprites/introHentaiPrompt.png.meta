@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a981789c19c62ed4e919827ca1be5a85
+guid: a7bfad7c03f8460429ebc5331bf53864
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7176300867611961145
-    second: continue_0
+      213: -2999360754682106829
+    second: introHentaiPrompt_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,22 +113,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: continue_0
+      name: introHentaiPrompt_0
       rect:
         serializedVersion: 2
-        x: 202
-        y: 519
-        width: 450
-        height: 140
+        x: 257
+        y: 600
+        width: 229
+        height: 358
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c859a0f168a86c90800000000000000
-      internalID: -7176300867611961145
+      spriteID: 33cecefe8412066d0800000000000000
+      internalID: -2999360754682106829
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a6e193adb0f5dc5438f116a2b152c749
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      continue_0: -7176300867611961145
+      introHentaiPrompt_0: -2999360754682106829
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

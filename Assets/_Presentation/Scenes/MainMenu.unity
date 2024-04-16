@@ -781,6 +781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 1491327179}
   settingsPanel: {fileID: 2107332421}
+  memoPanel: {fileID: 0}
   continueButton: {fileID: 1264369847}
   audioMixer: {fileID: 24100000, guid: bf6ca344fc9415b4e9c45aca81cf704b, type: 2}
   sliderEffects: {fileID: 521219627}
@@ -899,10 +900,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1491327180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 2.9999847}
-  m_SizeDelta: {x: 800, y: 140}
+  m_AnchorMin: {x: 0.11483334, y: 0.646}
+  m_AnchorMax: {x: 0.43643752, y: 0.7772223}
+  m_AnchoredPosition: {x: 0.5, y: -0.49996948}
+  m_SizeDelta: {x: 2.7999878, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264369847
 MonoBehaviour:
@@ -1019,10 +1020,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1491327180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 196}
-  m_SizeDelta: {x: 800, y: 140}
+  m_AnchorMin: {x: 0.10453126, y: 0.43422222}
+  m_AnchorMax: {x: 0.52516675, y: 0.56762964}
+  m_AnchoredPosition: {x: -0.000061035156, y: -0.8200073}
+  m_SizeDelta: {x: -8, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1325132165
 MonoBehaviour:
@@ -1646,14 +1647,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b119f443058c04e4cb262ec3b6d7c137, type: 3}
+  m_Sprite: {fileID: -6633295910381144953, guid: 60320847e00aae9498b0b95fe5801cc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1779,10 +1780,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1491327180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -201.00002}
-  m_SizeDelta: {x: 800, y: 140}
+  m_AnchorMin: {x: 0.10453126, y: 0.24733335}
+  m_AnchorMax: {x: 0.5178751, y: 0.37122223}
+  m_AnchoredPosition: {x: 1.5, y: 0.5}
+  m_SizeDelta: {x: 3, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887640673
 MonoBehaviour:
@@ -2043,7 +2044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 277648e53ab8c8c42bd7c38ee2aa4cce, type: 3}
+  m_Sprite: {fileID: -6633295910381144953, guid: 60320847e00aae9498b0b95fe5801cc5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
