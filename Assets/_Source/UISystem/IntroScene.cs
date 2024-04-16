@@ -1,5 +1,7 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class IntroScene : MonoBehaviour
 {
@@ -17,10 +19,11 @@ public class IntroScene : MonoBehaviour
         }
     }
     
-    private void promptOn() {
-        prompt.SetActive(true);
+    private void promptOn()
+    {
+        prompt.GetComponent<Image>().DOFade(1, 1);
     }
     private void promptOff() {
-        prompt.SetActive(false);
+        prompt.GetComponent<Image>().DOFade(0, 3);
     }
 }
