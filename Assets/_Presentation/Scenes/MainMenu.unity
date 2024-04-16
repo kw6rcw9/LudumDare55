@@ -780,7 +780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 1491327179}
-  settingsPanel: {fileID: 1264369845}
+  settingsPanel: {fileID: 2107332421}
   continueButton: {fileID: 1264369847}
   audioMixer: {fileID: 24100000, guid: bf6ca344fc9415b4e9c45aca81cf704b, type: 2}
   sliderEffects: {fileID: 521219627}
