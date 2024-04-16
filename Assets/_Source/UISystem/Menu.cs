@@ -9,6 +9,7 @@ namespace UISystem
     {
         [SerializeField] private GameObject menuPanel;
         [SerializeField] private GameObject settingsPanel;
+        [SerializeField] private GameObject memoPanel;
         [SerializeField] private Button continueButton;
                           
         [SerializeField] private AudioMixer audioMixer;
@@ -23,6 +24,7 @@ namespace UISystem
 
         private UserData userData;
         private bool settingsFlag = false;
+        private bool memoFlag = false;
 
         void Awake() {
             userData = new UserData();
@@ -47,10 +49,16 @@ namespace UISystem
                 settingsPanel.SetActive(false);
                 //Debug.Log(settingsPanel.activeSelf);
                 settingsFlag = !settingsFlag;
+                if (memoPanel != null) {
+                    memoPanel.SetActive(false);
+                }
             } else {
                 menuPanel.SetActive(false);
                 settingsPanel.SetActive(true);
                 settingsFlag = !settingsFlag;
+                if (memoPanel != null) {
+                    memoPanel.SetActive(false);
+                }
             }
         }
 
@@ -97,6 +105,21 @@ namespace UISystem
             else
             {
                 MusicOn();
+            }
+        }
+
+
+        public void ToggleMemoPanel() {
+            if (memoFlag) {
+                menuPanel.SetActive(false);
+                memoPanel.SetActive(false);
+                settingsPanel.SetActive(true);
+                memoFlag = !memoFlag;
+            } else {
+                memoPanel.SetActive(true);
+                menuPanel.SetActive(false);
+                settingsPanel.SetActive(false);
+                memoFlag = !memoFlag;
             }
         }
 
