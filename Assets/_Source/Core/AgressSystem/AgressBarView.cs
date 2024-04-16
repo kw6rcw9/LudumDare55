@@ -8,8 +8,6 @@ using Zenject;
 public class AgressBarView : MonoBehaviour
 {
     [SerializeField] private Image healthBarImage;
-    [SerializeField] private Canvas healthBar;
-    public Canvas HealthBar => healthBar;
     private AgressBar _bar;
 
     [Inject]

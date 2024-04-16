@@ -119,57 +119,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 545_0
-      rect:
-        serializedVersion: 2
-        x: 235
-        y: 325
-        width: 87
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6c44298e76206900800000000000000
-      internalID: 675582269014166636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 545_1
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 325
-        width: 87
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce05f5ebd45462840800000000000000
-      internalID: 5198919020054532332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: 545_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 668
-        height: 323
+        height: 247
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,7 +142,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 115f8ad2905083245a77fd01b9f2f529
     internalID: 0
     vertices: []
     indices: 
