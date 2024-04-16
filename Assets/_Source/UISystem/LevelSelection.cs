@@ -20,7 +20,7 @@ namespace UISystem
         {
             dayCounter = PlayerPrefs.GetInt("DayCounter");
             days = PlayerPrefs.GetString("Days");
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < 5; i++)
             {
                 if (days[i] == '1')
                 {
@@ -32,6 +32,7 @@ namespace UISystem
                 {
                     int levelID = i;
                     buttons[i].onClick.AddListener(delegate { chooseLevel(levelID); });
+                    Debug.Log("chooseLevel AddedListener LevelID: " + levelID);
                 }
             }
 
@@ -40,6 +41,7 @@ namespace UISystem
 
         public void chooseLevel(int levelID)
         {
+            Debug.Log("chooseLevel LevelID: " + levelID);
             PlayerPrefs.SetInt("CurrentLevel", levelID);
             PlayerPrefs.Save();
             string sceneName = "";
