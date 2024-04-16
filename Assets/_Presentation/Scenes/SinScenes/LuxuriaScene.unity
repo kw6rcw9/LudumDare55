@@ -203,7 +203,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &2704538
 Canvas:
   m_ObjectHideFlags: 0
@@ -213,7 +213,7 @@ Canvas:
   m_GameObject: {fileID: 2704534}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 2
   m_Camera: {fileID: 1803514997}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -225,7 +225,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &2704539
 RectTransform:
@@ -235,8 +235,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2704534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.009259259, y: 0.009259259, z: 0.009259259}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1826655612}
@@ -247,8 +247,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920.0001, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2704540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d4e523d261ead40a795b6e2d3764c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 0}
+  score: {fileID: 47981503}
 --- !u!1 &16099262
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +337,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16099262}
   m_CullTransparentMesh: 1
+--- !u!114 &47981503 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8809153166792655631, guid: a832a53df59386e45909698ac830b81c, type: 3}
+  m_PrefabInstance: {fileID: 522659075}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &70858551
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,9 +381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f352351f6f8f43d4cbd75512e0f159c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultDamage: 0.165
+  defaultDamage: 0.25
   <SpeedOfFilling>k__BackingField: 1
-  heal: 0.08
+  heal: 0.12
   healthBarBorder: {fileID: 1415442405}
   redColoredBorder: {fileID: 1484550770}
 --- !u!114 &70858553
@@ -580,7 +591,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &163579448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1183,18 +1194,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6573418317124392314, guid: a832a53df59386e45909698ac830b81c, type: 3}
       propertyPath: m_text
-      value: 'The people who dwell in the rooms have given in to the carnal desires
-        and have become akin to animals. Bring them back to the light.
-
-'
+      value: Bring back to the light those who have given in to lust.
       objectReference: {fileID: 0}
     - target: {fileID: 6573418317124392314, guid: a832a53df59386e45909698ac830b81c, type: 3}
       propertyPath: m_fontSize
-      value: 20.64
+      value: 30.17
       objectReference: {fileID: 0}
     - target: {fileID: 6573418317124392314, guid: a832a53df59386e45909698ac830b81c, type: 3}
       propertyPath: m_fontSizeBase
-      value: 20.64
+      value: 30.17
       objectReference: {fileID: 0}
     - target: {fileID: 7026376390407662731, guid: a832a53df59386e45909698ac830b81c, type: 3}
       propertyPath: m_Pivot.x
@@ -2661,6 +2669,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664074959}
   m_CullTransparentMesh: 1
+--- !u!1 &1715249102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715249105}
+  - component: {fileID: 1715249104}
+  - component: {fileID: 1715249103}
+  m_Layer: 5
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1715249103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715249102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1715249104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715249102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1715249105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715249102}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.009259259, y: 0.009259259, z: 0.009259259}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1782653806
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,6 +2899,10 @@ PrefabInstance:
     - target: {fileID: 4394754496416186726, guid: d6139da01bb9ba64ea4aa7930b474e30, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397239780733964000, guid: d6139da01bb9ba64ea4aa7930b474e30, type: 3}
+      propertyPath: orthographic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3449,3 +3529,4 @@ SceneRoots:
   - {fileID: 318919889}
   - {fileID: 70858557}
   - {fileID: 1509224433}
+  - {fileID: 1715249105}

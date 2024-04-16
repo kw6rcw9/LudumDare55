@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Proyecto26;
+// using Proyecto26;
 using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -16,13 +16,13 @@ public class MessageManager : MonoBehaviour
     {
         userData = new UserData();
         // sendMessage("2", "meowwww");
-        receiveMessages("2");
+        // receiveMessages("2");
         foreach (var message in messages) {
             Debug.Log(message.userName +" "+ message.message +" "+ message.createdAt);
         }
     }
 
-    public void receiveMessages(string roomID) {
+    /*public void receiveMessages(string roomID) {
         RestClient.Get($"https://firetest-96e6d-default-rtdb.firebaseio.com/messages/{roomID}.json").Then(response =>
         {
             // Debug.Log(response.Text);
@@ -51,7 +51,7 @@ public class MessageManager : MonoBehaviour
 
         RestClient.Put($"https://firetest-96e6d-default-rtdb.firebaseio.com/messages/{roomID}/{userData.userID}.json", "{\"message\": \"" + messageText + "\",\"createdAt\": " + DateTimeOffset.UtcNow.ToUnixTimeSeconds() + "}");
 
-    }
+    } */
 }
 
 public class Message {

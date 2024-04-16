@@ -12,6 +12,7 @@ namespace Core
 
         public static void Lose()
         {
+            
             int dayCounter = PlayerPrefs.GetInt("DayCounter") + 1;
             PlayerPrefs.SetInt("DayCounter", dayCounter);
             PlayerPrefs.Save();
