@@ -25,12 +25,15 @@ namespace Core
             PlayerPrefs.SetInt("DayCounter", dayCounter);
             int currentLevel = PlayerPrefs.GetInt("CurrentLevel");
             string days = PlayerPrefs.GetString("Days");
+            if (days == "11111") {
+                Win();
+            }
             string newDays = "";
             for (int i = 0; i < currentLevel; i++) {
                 newDays += days[i];
             }
             newDays += "1";
-            for (int i = currentLevel + 1; i < 7; i++) {
+            for (int i = currentLevel + 1; i < 5; i++) {
                 newDays += days[i];
             }
 

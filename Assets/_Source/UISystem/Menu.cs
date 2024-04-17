@@ -131,7 +131,7 @@ namespace UISystem
         public void Play()
         {
             source.Play();
-            PlayerPrefs.SetString("Days", "0000000");
+            PlayerPrefs.SetString("Days", "00000");
             PlayerPrefs.SetInt("DayCounter", 1);
             PlayerPrefs.Save();
             SceneManager.LoadScene("IntroScene");
