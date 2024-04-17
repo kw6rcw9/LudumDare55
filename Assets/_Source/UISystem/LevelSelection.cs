@@ -22,6 +22,7 @@ namespace UISystem
             days = PlayerPrefs.GetString("Days");
             for (int i = 0; i < 5; i++)
             {
+                Debug.Log(i + days);
                 if (days[i] == '1')
                 {
                     images[i].SetActive(true);

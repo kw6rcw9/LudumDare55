@@ -18,7 +18,7 @@ public class HallInputListener : MonoBehaviour
    [SerializeField] private AudioSource open;
    [SerializeField] private AudioSource open2;
    [SerializeField] private AudioSource open3;
-   
+   private bool isInRoom;
    
    
    [Inject]
@@ -34,6 +34,7 @@ public class HallInputListener : MonoBehaviour
    {
       
       _inputSystem.Enable();
+      isInRoom = false;
       
       Debug.Log("Enabled");
       _inputSystem.GamePlay.DoorInteraction.performed +=  ReadDoorInteraction;
@@ -48,13 +49,16 @@ public class HallInputListener : MonoBehaviour
    }
 
 
-   private void ReadDoorInteraction(InputAction.CallbackContext obj)
-   {
-      knock.Play();
-      Debug.Log("Pressed E");
-      Invoke("Do", 1.5f);
-      
-   }
+    private void ReadDoorInteraction(InputAction.CallbackContext obj)
+    {
+        if (isInRoom) {
+            return;
+        }
+        isInRoom = true;
+        knock.Play();
+        Debug.Log("Pressed E");
+        Invoke("Do", 1.5f);
+    }
 
    private void Do()
    {
