@@ -8,7 +8,8 @@ namespace Core.InputSystem
 {
     public class RoomInputListener : MonoBehaviour
     {
-        [SerializeField] private GameObject hall; 
+        [SerializeField] private GameObject hall;
+        [SerializeField] private AudioSource source;
         private PlayerInput _inputSystem;
         private Menu _menu;
         private GeneratorController _generatorController;
@@ -78,46 +79,55 @@ namespace Core.InputSystem
 
         private void CallPolice(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.Police);
             _inputSystem.Disable();
         }
         private void CallMedical(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.Medical);
             _inputSystem.Disable();
         }
         private void CallFireDepartment(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.FireDepartment);
             _inputSystem.Disable();
         }
         private void CallGasService(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.GasService);
             _inputSystem.Disable();
         }
         private void CallMortuary(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.Mortuary);
             _inputSystem.Disable();
         }
         private void CallSanitary(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.Sanitary);
             _inputSystem.Disable();
         }
         private void CallRoskomdanzor(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.Roskomdanzor);
             _inputSystem.Disable();
         }
         private void CallThieves(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.Thieves);
             _inputSystem.Disable();
         }
         private void CorrectCitizens(InputAction.CallbackContext obj)
         {
+            source.Play();
             _roomController.CheckOnCorrectService(Services.CorrectCitizens);
             _inputSystem.Disable();
         }

@@ -897,7 +897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61a154b897806194c8b51ad9e0830b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Services>k__BackingField: 0
+  <Services>k__BackingField: 4
   <IsNeeded>k__BackingField: 0
   <RoomId>k__BackingField: 306
 --- !u!114 &5481818559184751481
@@ -1368,7 +1368,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 5379157725843977334, guid: 68d9de2d60668884eb6a25867d24540b, type: 3}
+  m_Sprite: {fileID: 7153922179001676480, guid: c79b8d639886d0840b5cb643811c93ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultDamage: 0.25
-  <SpeedOfFilling>k__BackingField: 0
+  <SpeedOfFilling>k__BackingField: 1
   heal: 0.125
   healthBarBorder: {fileID: 6178383125236995510}
   redColoredBorder: {fileID: 2208056615305136180}
@@ -69,7 +69,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBarImage: {fileID: 1734686773886881343}
-  healthBar: {fileID: 0}
 --- !u!1 &806751121447254453
 GameObject:
   m_ObjectHideFlags: 0

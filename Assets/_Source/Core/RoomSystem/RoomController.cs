@@ -13,6 +13,7 @@ namespace Core.RoomSystem
         private TaskScore _score;
         private AgressBar _bar;
         public static Action<Services> ChangeSprite;
+        public static Action LoseAction;
         public void Construct(TaskScore score, AgressBar bar)
         {
             _score = score;

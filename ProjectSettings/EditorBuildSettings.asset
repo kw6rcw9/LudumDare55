@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Presentation/Scenes/SinScenes/SuperbiaScene.unity
     guid: b4d018eeaeb80384bb24592ba7335b08
+  - enabled: 1
+    path: Assets/_Presentation/Scenes/FinalScene.unity
+    guid: fdcddb80f3137f648930fc4703710d42
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

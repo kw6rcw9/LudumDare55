@@ -7,12 +7,18 @@ using UISystem;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Zenject;
+using Random = System.Random;
 
 public class HallInputListener : MonoBehaviour
 {
    private PlayerInput _inputSystem;
    private Menu _menu;
    private GeneratorController _generatorController;
+   [SerializeField] private AudioSource knock;
+   [SerializeField] private AudioSource open;
+   [SerializeField] private AudioSource open2;
+   [SerializeField] private AudioSource open3;
+   
    
    
    [Inject]
@@ -44,10 +50,31 @@ public class HallInputListener : MonoBehaviour
 
    private void ReadDoorInteraction(InputAction.CallbackContext obj)
    {
+      knock.Play();
       Debug.Log("Pressed E");
+      Invoke("Do", 1.5f);
+      
+   }
+
+   private void Do()
+   {
       gameObject.SetActive(false);
       _generatorController.GetRoom();
-      
+      Random rnd = new Random();
+      int a = rnd.Next(0, 3);
+      switch (a)
+      {
+         case 0:
+            open.Play();
+            break;
+         case 1:
+            open2.Play();
+            break;
+         case 2:
+            open3.Play();
+            break;
+      }
+     
    }
 
    private void ReadEscape(InputAction.CallbackContext obj)

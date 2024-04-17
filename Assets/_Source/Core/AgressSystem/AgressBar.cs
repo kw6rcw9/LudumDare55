@@ -17,6 +17,7 @@ public class AgressBar : MonoBehaviour
    [SerializeField] private GameObject healthBarBorder;
    [SerializeField] private GameObject redColoredBorder;
    public static Action UpdateBar;
+   
 
    public void TakeDamage()
    {

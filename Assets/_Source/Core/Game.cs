@@ -7,7 +7,7 @@ namespace Core
     {
         public static void Win()
         {
-            //TODO Show final scene
+            SceneManager.LoadScene("FinalScene");
         }
 
         public static void Lose()

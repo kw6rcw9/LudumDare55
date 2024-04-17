@@ -22,11 +22,14 @@ namespace UISystem
         [SerializeField] private Sprite buttonEffectsSprite;
         [SerializeField] private Sprite buttonEffectsOffSprite;
 
+        [SerializeField] private AudioSource source;
+
         private UserData userData;
         private bool settingsFlag = false;
         private bool memoFlag = false;
 
         void Awake() {
+            
             userData = new UserData();
             if (PlayerPrefs.HasKey("Days") &&  continueButton != null)
             {
@@ -44,6 +47,7 @@ namespace UISystem
 
         public void ToggleSettings()
         {
+            source.Play();
             if (settingsFlag) {
                 menuPanel.SetActive(true);
                 settingsPanel.SetActive(false);
@@ -110,6 +114,7 @@ namespace UISystem
 
 
         public void ToggleMemoPanel() {
+            source.Play();
             if (memoFlag) {
                 menuPanel.SetActive(false);
                 memoPanel.SetActive(false);
@@ -125,6 +130,7 @@ namespace UISystem
 
         public void Play()
         {
+            source.Play();
             PlayerPrefs.SetString("Days", "0000000");
             PlayerPrefs.SetInt("DayCounter", 1);
             PlayerPrefs.Save();
@@ -133,6 +139,7 @@ namespace UISystem
 
         public void Continue()
         {
+            source.Play();
             SceneManager.LoadScene("LevelSelection");
         }
 
@@ -148,6 +155,7 @@ namespace UISystem
 
         public void EffectsOff()
         {
+            source.Play();
             audioMixer.SetFloat("Effects", -80f);
             PlayerPrefs.SetInt("IsEffects", 1);
             buttonEffects.GetComponent<Image>().sprite = buttonEffectsOffSprite;
@@ -158,6 +166,7 @@ namespace UISystem
 
         private void EffectsOn()
         {
+            source.Play();
             audioMixer.SetFloat("Effects", sliderEffects.value);
             PlayerPrefs.SetInt("IsEffects", 0);
             buttonEffects.GetComponent<Image>().sprite = buttonEffectsSprite;
@@ -178,6 +187,7 @@ namespace UISystem
 
         public void MusicOff()
         {
+            source.Play();
             audioMixer.SetFloat("Music", -80f);
             PlayerPrefs.SetInt("IsMusic", 1);
             buttonMusic.GetComponent<Image>().sprite = buttonMusicOffSprite;
@@ -188,6 +198,7 @@ namespace UISystem
 
         private void MusicOn()
         {
+            source.Play();
             audioMixer.SetFloat("Music", sliderMusics.value);
             PlayerPrefs.SetInt("IsMusic", 0);
             buttonMusic.GetComponent<Image>().sprite = buttonMusicSprite;
