@@ -31,7 +31,7 @@ namespace UISystem
         void Awake() {
             
             userData = new UserData();
-            if (PlayerPrefs.HasKey("Days") &&  continueButton != null)
+            if (PlayerPrefs.HasKey("Days") &&  continueButton != null && "11111" != PlayerPrefs.GetString("Days"))
             {
                 continueButton.onClick.AddListener(Continue);
             } else if (continueButton != null) {

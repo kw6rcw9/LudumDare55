@@ -25,9 +25,6 @@ namespace Core
             PlayerPrefs.SetInt("DayCounter", dayCounter);
             int currentLevel = PlayerPrefs.GetInt("CurrentLevel");
             string days = PlayerPrefs.GetString("Days");
-            if (days == "11111") {
-                Win();
-            }
             string newDays = "";
             for (int i = 0; i < currentLevel; i++) {
                 newDays += days[i];
@@ -39,7 +36,12 @@ namespace Core
 
             PlayerPrefs.SetString("Days", newDays);
             PlayerPrefs.Save();
-            SceneManager.LoadScene("LevelSelection");
+            Debug.Log("Days: "+newDays);
+            if (newDays == "11111") {
+                Win();
+            } else {
+                SceneManager.LoadScene("LevelSelection");
+            }
         }
     }
 }
